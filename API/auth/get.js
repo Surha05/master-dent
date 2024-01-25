@@ -1,0 +1,1 @@
+export let auth = fetch('/API/auth/get.php').then((response) => response.json());

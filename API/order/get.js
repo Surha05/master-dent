@@ -1,0 +1,1 @@
+export let orders = fetch('/API/order/get.php').then((response) => response.json());
