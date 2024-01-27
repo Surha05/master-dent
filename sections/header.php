@@ -6,9 +6,15 @@
 				<div class="row">
 					<div class="col">
 						<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
-							<div class="top_bar_item"><a href="#">FAQ</a></div>
-							<div class="top_bar_item"><a href="#">Request an Appointment</a></div>
-							<div class="emergencies  d-flex flex-row align-items-center justify-content-start ml-auto">For Emergencies: +563 47558 623</div>
+							<div class="top_bar_item"><a href="#">Ставропольский край, <br> г. Пятигорск, ул. Коллективная, д. 1</a></div>
+							<!-- <div class="top_bar_item"><a href="#">г. Пятигорск, ул. Коллективная, д. 1
+						</a>
+					</div> -->
+							<div class="emergencies  d-flex flex-row flex-column align-items-center justify-content-center ml-auto">
+								<a href="tel:+79283782517">8 (928) 378-25-17</a>
+								<a href="tel:+79283488884">8 (938) 348-88-84</a>
+
+						 </div>
 						</div>
 
 					</div>
@@ -48,8 +54,8 @@
 								<div class="logo_content d-flex flex-column align-items-start justify-content-center">
 									<div class="logo_line"></div>
 									<div class="logo d-flex flex-row align-items-center justify-content-center">
-										<div class="logo_text">Care<span>Med</span></div>
-										<div class="logo_box">+</div>
+										<div class="logo_text">Мастер<span>Дент</span></div>
+										<!-- <div class="logo_box">+</div> -->
 									</div>
 									<div class="logo_sub">Health Care Center</div>
 								</div>

@@ -14,7 +14,7 @@
 	<!-- Menu -->
 	<?php include 'sections/menu.php'; ?>
 	<!-- Home --> 
-	<?php include 'sections/news/home.php'; ?>
+	<!-- <?php include 'sections/news/home.php'; ?> -->
 
 	<!-- News -->
 	<?php include 'sections/news/news-section.php'; ?>

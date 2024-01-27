@@ -14,7 +14,7 @@
 	<!-- Menu -->
 	<?php include 'sections/menu.php'; ?>
 	<!-- Home -->
-	<?php include 'sections/about/home.php'; ?>
+	<!-- <?php include 'sections/about/home.php'; ?> -->
 	<!-- About -->
 	<?php include 'sections/about/about.php'; ?>
 	<!-- Testimonials -->

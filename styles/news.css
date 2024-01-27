@@ -350,6 +350,10 @@ section
 	padding-right: 38px;
 }
 
+.emergencies a {
+  color: #ffffff;
+}
+
 /*********************************
 3.2 Header Content
 *********************************/
@@ -710,6 +714,7 @@ section
 	background: #FFFFFF;
 	padding-top: 94px;
 	padding-bottom: 91px;
+	margin-top: 126px;
 }
 .news_post
 {
@@ -942,6 +947,8 @@ section
 .sidebar_categories
 {
 	margin-top: 90px;
+	margin-top: 0px;
+
 }
 .sidebar_section_title::after
 {
@@ -1022,6 +1029,8 @@ section
 	padding-top: 29px;
 	padding-right: 60px;
 	margin-top: 88px;
+	margin-bottom: 30px;
+
 }
 .working_hours_list
 {
@@ -1054,6 +1063,61 @@ section
 	font-weight: 400;
 	margin-top: 23px;
 }
+
+
+.box_phone {
+  font-size: 30px;
+  font-weight: 400;
+  color: #20d34a;
+  margin-top: 20px;
+}
+.box_phone:last-child {
+  margin-top: 0;
+}
+.box_appointments {
+  padding-right: 30px;
+	margin-bottom: 30px;
+}
+
+.box_appointments .box_phone a {
+  color: #20d34a;
+}
+.box_emergency {
+  padding-right: 30px;
+}
+.box_emergency_text {
+  font-size: 14px;
+  line-height: 2.14;
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 18px;
+}
+
+.box_emergency_social ul {
+  margin-right: -5px;
+  margin-top: 30px;
+}
+.box_emergency_social ul li {
+  display: inline-block;
+}
+.box_emergency_social ul li:not(:last-child) {
+  margin-right: 19px;
+}
+.box_emergency_social ul li a i {
+  color: #20d34a;
+  padding: 5px;
+  font-size: 14px;
+  font-size: 30px;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.box_emergency_social ul li a i:hover {
+  color: #ffffff;
+}
+
 .ad
 {
 	width: 100%;
@@ -1165,6 +1229,9 @@ section
 {
 	margin-top: 32px;
 }
+.footer_about_list a {
+  color: #b2b2b2;
+}
 .footer_about_list li:not(:last-child)
 {
 	margin-bottom: 9px;
@@ -1245,6 +1312,8 @@ section
 .footer_news ul li:not(:last-child)
 {
 	margin-bottom: 38px;
+	margin-bottom: 36px;
+
 }
 .copyright
 {

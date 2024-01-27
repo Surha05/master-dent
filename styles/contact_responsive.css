@@ -129,6 +129,10 @@
 		padding-left: 30px;
 		padding-right: 30px;
 	}
+
+	.emergencies a {
+		color: #ffffff;
+	}
 	.logo_box
 	{
 		width: 18px;

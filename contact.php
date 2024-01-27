@@ -14,7 +14,7 @@
 	<!-- Menu -->
 	<?php include 'sections/menu.php'; ?>
 	<!-- Home -->
-	<?php include 'sections/contact/home.php'; ?>
+	<!-- <?php include 'sections/contact/home.php'; ?> -->
 	<!-- Contact -->
 	<?php include 'sections/contact/contact-section.php'; ?>
 	<!-- Footer -->

@@ -352,6 +352,10 @@ section
 	padding-right: 38px;
 }
 
+.emergencies a {
+  color: #ffffff;
+}
+
 /*********************************
 3.2 Header Content
 *********************************/
@@ -712,6 +716,8 @@ section
 	background: #FFFFFF;
 	padding-top: 95px;
 	padding-bottom: 65px;
+	margin-top: 129px;
+
 }
 .services_row
 {
@@ -1022,6 +1028,9 @@ section
 {
 	margin-top: 32px;
 }
+.footer_about_list a {
+  color: #b2b2b2;
+}
 .footer_about_list li:not(:last-child)
 {
 	margin-bottom: 9px;
@@ -1102,6 +1111,8 @@ section
 .footer_news ul li:not(:last-child)
 {
 	margin-bottom: 38px;
+	margin-bottom: 36px;
+
 }
 .copyright
 {

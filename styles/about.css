@@ -351,7 +351,9 @@ section
 	padding-left: 38px;
 	padding-right: 38px;
 }
-
+.emergencies a {
+  color: #ffffff;
+}
 /*********************************
 3.2 Header Content
 *********************************/
@@ -710,6 +712,7 @@ section
 {
 	width: 100%;
 	background: #FFFFFF;
+	margin-top: 160px;
 	padding-top: 96px;
 	padding-bottom: 94px;
 }
@@ -746,6 +749,7 @@ section
 .about_button
 {
 	margin-top: 129px;
+	background: #20d34a;
 }
 .box
 {
@@ -828,10 +832,20 @@ section
 	font-weight: 400;
 	color: #20d34a;
 	margin-top: 20px;
+
+}
+
+.box_phone:last-child {
+	margin-top: 0px;
+
 }
 .box_appointments
 {
 	padding-right: 30px;
+}
+
+.box_appointments .box_phone a {
+  color: #20d34a;
 }
 .box_emergency
 {
@@ -844,6 +858,31 @@ section
 	color: #FFFFFF;
 	font-weight: 400;
 	margin-top: 18px;
+}
+
+.box_emergency_social ul {
+  margin-right: -5px;
+  margin-top: 30px;
+}
+.box_emergency_social ul li {
+  display: inline-block;
+}
+.box_emergency_social ul li:not(:last-child) {
+  margin-right: 19px;
+}
+.box_emergency_social ul li a i {
+  color: #20d34a;
+  padding: 5px;
+  font-size: 14px;
+  font-size: 30px;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.box_emergency_social ul li a i:hover {
+  color: #ffffff;
 }
 
 /*********************************
@@ -1068,6 +1107,9 @@ section
 {
 	margin-top: 32px;
 }
+.footer_about_list a {
+  color: #b2b2b2;
+}
 .footer_about_list li:not(:last-child)
 {
 	margin-bottom: 9px;
@@ -1148,6 +1190,8 @@ section
 .footer_news ul li:not(:last-child)
 {
 	margin-bottom: 38px;
+	margin-bottom: 36px;
+
 }
 .copyright
 {

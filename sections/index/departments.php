@@ -47,7 +47,7 @@
 						<div class="dept_text">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dap ibus massa. Pellen tesque in luctus ex.</p>
 						</div>
-						<div class="button dept_button"><a href="#">read more</a></div>
+						<div class="button dept_button"><a href="/services.php">Все Услуги</a></div>
 					</div>
 				</div>
 			</div>

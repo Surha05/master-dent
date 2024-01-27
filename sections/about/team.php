@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<div class="section_title"><h2>Meet Our Medical Team</h2></div>
+					<div class="section_title"><h2>Наши специалисты</h2></div>
 				</div>
 			</div>
 			<div class="row team_row">

@@ -96,28 +96,31 @@
 					<div class="sidebar">
 
 						<!-- Search -->
-						<div class="sidebar_search">
+						<!-- <div class="sidebar_search">
 							<form action="#" id="sidebar_search_form" class="sidebar_search_form">
 								<input type="text" class="search_input" placeholder="Search" required="required">
 								<button class="search_button"><img src="images/search.png" alt=""></button>
 							</form>
-						</div>
+						</div> -->
 
 						<!-- Categories -->
 						<div class="sidebar_categories sidebar_section">
 							<div class="sidebar_section_title">
-								<div class="sidebar_title">Categories</div>
+								<div class="sidebar_title">Услуги</div>
 							</div>
 							<ul>
-								<li><a href="#">Medical Articles</a></li>
-								<li><a href="#">Therapy</a></li>
-								<li><a href="#">Useful Information</a></li>
-								<li><a href="#">Uncategorized</a></li>
+								<li><a href="#">Терапевтическая стоматология</a></li>
+								<li><a href="#">Пародонтология</a></li>
+								<li><a href="#">Шинирование зубов</a></li>
+								<li><a href="#">Ортопедия</a></li>
+								<li><a href="#">Хирургия</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+
 							</ul>
 						</div>
 
 						<!-- Archives -->
-						<div class="sidebar_archives sidebar_section">
+						<!-- <div class="sidebar_archives sidebar_section">
 							<div class="sidebar_section_title">
 								<div class="sidebar_title">Archives</div>
 							</div>
@@ -127,38 +130,48 @@
 								<li><a href="#">February 2018</a></li>
 								<li><a href="#">March 2018</a></li>
 							</ul>
-						</div>
+						</div> -->
 
 						<!-- Working Hours -->
-						<div class="box working_hours">
-							<div class="box_icon d-flex flex-column align-items-start justify-content-center"><div style="width:29px; height:29px;"><img src="images/alarm-clock.svg" alt=""></div></div>
-							<div class="box_title">Working Hours</div>
-							<div class="working_hours_list">
-								<ul>
-									<li class="d-flex flex-row align-items-center justify-content-start">
-										<div>Monday – Friday</div>
-										<div class="ml-auto">8.00 – 19.00</div>
-									</li>
-									<li class="d-flex flex-row align-items-center justify-content-start">
-										<div>Saturday</div>
-										<div class="ml-auto">9.30 – 17.00</div>
-									</li>
-									<li class="d-flex flex-row align-items-center justify-content-start">
-										<div>Sunday</div>
-										<div class="ml-auto">9.30 – 15.00</div>
-									</li>
-								</ul>
-							</div>
+					<div class="box working_hours">
+						<div class="box_icon d-flex flex-column align-items-start justify-content-center"><div style="width:29px; height:29px;"><img src="images/alarm-clock.svg" alt=""></div></div>
+						<div class="box_title">Время работы</div>
+						<div class="working_hours_list">
+							<ul>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Понедельник – Суббота</div>
+									<div class="ml-auto">09.00 – 19.00</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Воскресенье</div>
+									<div class="ml-auto">Выходной</div>
+								</li>
+								<!-- <li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Sunday</div>
+									<div class="ml-auto">9.30 – 15.00</div>
+								</li> -->
+							</ul>
 						</div>
+					</div>
+
+					<div class="box box_appointments">
+						<div class="box_icon d-flex flex-column align-items-start justify-content-center"><div style="width: 29px; height:29px;"><img src="images/phone-call.svg" alt=""></div></div>
+						<div class="box_title">Контакты</div>
+						<div class="box_phone"><a href="tel:+79283782517">8 (928) 378-25-17</a> </div>
+						<div class="box_phone"><a href="tel:+79283488884">8 (938) 348-88-84</a> </div>
+
+					</div>
+
+					
 
 						<!-- Ad -->
-						<div class="ad d-flex flex-column align-items-center justify-content-end">
+						<!-- <div class="ad d-flex flex-column align-items-center justify-content-end">
 							<div class="ad_background" style="background-image:url(images/ad.jpg)"></div>
 							<div class="ad_content">
 								<div class="ad_text">Come and take a <span>free screening</span></div>
 								<div class="button ad_button"><a href="#">read more</a></div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>

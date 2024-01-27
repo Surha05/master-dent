@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<div class="section_title section_title_light"><h2>Patient Testimonials</h2></div>
+					<div class="section_title section_title_light"><h2>Отзывы</h2></div>
 				</div>
 			</div>
 			<div class="row test_row">
@@ -31,6 +31,8 @@
 						</div>
 					</div>
 				</div>
+				<div class="button about_button"><a href="#">Оставить отзыв</a></div>
+
 
 			</div>
 		</div>

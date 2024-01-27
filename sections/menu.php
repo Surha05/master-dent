@@ -17,8 +17,10 @@
     </ul>
   </div>
   <div class="menu_extra">
-    <div class="menu_appointment"><a href="#">Request an Appointment</a></div>
-    <div class="menu_emergencies">For Emergencies: +563 47558 623</div>
+    <div class="menu_appointment"><a href="#">г. Пятигорск, ул. Коллективная, д. 1</a></div>
+    <div class="menu_emergencies"><a href="">8 (928) 378-25-17</a> </div>
+    <div class="menu_emergencies"><a href="">8 (938) 348-88-84</a> </div>
+
   </div>
 
 </div>

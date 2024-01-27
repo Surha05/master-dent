@@ -10,10 +10,10 @@
 								<a href="#" class="d-flex flex-column align-items-center justify-content-center">
 									<div class="logo_content">
 										<div class="logo d-flex flex-row align-items-center justify-content-center">
-											<div class="logo_text">Care<span>Med</span></div>
-											<div class="logo_box">+</div>
+											<div class="logo_text">Мастер<span>Дент</span></div>
+											<!-- <div class="logo_box">+</div> -->
 										</div>
-										<div class="logo_sub">Health Care Center</div>
+										<div class="logo_sub">Стоматологическая клиника</div>
 									</div>
 								</a>
 							</div>
@@ -21,9 +21,10 @@
 								<p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum.</p>
 							</div>
 							<ul class="footer_about_list">
-								<li><div class="footer_about_icon"><img src="images/phone-call.svg" alt=""></div><span>+45 677 8993000 223</span></li>
-								<li><div class="footer_about_icon"><img src="images/envelope.svg" alt=""></div><span>office@template.com</span></li>
-								<li><div class="footer_about_icon"><img src="images/placeholder.svg" alt=""></div><span>Main Str. no 45-46, b3, 56832, Los Angeles, CA</span></li>
+								<li><div class="footer_about_icon"><img src="images/phone-call.svg" alt=""></div><span><a href="tel:+79283782517">8 (928) 378-25-17</a></span></li>
+								<li><div class="footer_about_icon"><img src="images/phone-call.svg" alt=""></div><span><a href="tel:+79283488884">8 (938) 348-88-84</a></span></li>
+								<li><div class="footer_about_icon"><img src="images/envelope.svg" alt=""></div><span><a href="mailto:masterdent26@bk.ru">masterdent26@bk.ru</a></span></li>
+								<li><div class="footer_about_icon"><img src="images/placeholder.svg" alt=""></div><span>г. Пятигорск, ул. Коллективная, д. 1</span></li>
 							</ul>
 						</div>
 					</div>
@@ -31,14 +32,14 @@
 					<!-- Footer - Links -->
 					<div class="col-lg-4 footer_col">
 						<div class="footer_links footer_column">
-							<div class="footer_title">Useful Links</div>
+							<div class="footer_title">Услуги</div>
 							<ul>
-								<li><a href="#">Testimonials</a></li>
-								<li><a href="#">FAQ</a></li>
-								<li><a href="#">Apply for a Job</a></li>
-								<li><a href="#">Terms & Conditions</a></li>
-								<li><a href="#">Our Partners</a></li>
-								<li><a href="#">Services</a></li>
+								<li><a href="#">Терапевтическая стоматология</a></li>
+								<li><a href="#">Пародонтология</a></li>
+								<li><a href="#">Шинирование зубов</a></li>
+								<li><a href="#">Ортопедия</a></li>
+								<li><a href="#">Хирургия</a></li>
+								<li><a href="#">Ортодонтия</a></li>
 								<li><a href="#">Free services</a></li>
 								<li><a href="#">About us</a></li>
 								<li><a href="#">News</a></li>
@@ -52,19 +53,27 @@
 					<!-- Footer - News -->
 					<div class="col-lg-4 footer_col">
 						<div class="footer_news footer_column">
-							<div class="footer_title">Useful Links</div>
+							<div class="footer_title">Навигация</div>
 							<ul>
 								<li>
-									<div class="footer_news_title"><a href="news.html">Aliquam ac eleifend metus</a></div>
-									<div class="footer_news_date">March 10, 2018</div>
+									<div class="footer_news_title"><a href="index.php">Главная</a></div>
+									<!-- <div class="footer_news_date">March 10, 2018</div> -->
 								</li>
 								<li>
-									<div class="footer_news_title"><a href="news.html">Donec in libero sit amet mi vulputate</a></div>
-									<div class="footer_news_date">March 10, 2018</div>
+									<div class="footer_news_title"><a href="about.php">О нас</a></div>
+									<!-- <div class="footer_news_date">March 10, 2018</div> -->
 								</li>
 								<li>
-									<div class="footer_news_title"><a href="news.html">Aliquam ac eleifend metus</a></div>
-									<div class="footer_news_date">March 10, 2018</div>
+									<div class="footer_news_title"><a href="services.php">Услуги</a></div>
+									<!-- <div class="footer_news_date">March 10, 2018</div> -->
+								</li>
+								<li>
+									<div class="footer_news_title"><a href="news.php">Новости</a></div>
+									<!-- <div class="footer_news_date">March 10, 2018</div> -->
+								</li>
+								<li>
+									<div class="footer_news_title"><a href="contact.php">Контакты</a></div>
+									<!-- <div class="footer_news_date">March 10, 2018</div> -->
 								</li>
 							</ul>
 						</div>
@@ -78,16 +87,14 @@
 					<div class="col">
 						<div class="copyright_content d-flex flex-lg-row flex-column align-items-lg-center justify-content-start">
 							<div class="cr"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Все права защищены | Сделано с <i class="fa fa-heart-o" aria-hidden="true"></i> от <a href="https://art-cod.ru" target="_blank">Art-Cod.ru</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 							<div class="footer_social ml-lg-auto">
 								<ul>
-									<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+					
 								</ul>
 							</div>
 						</div>
