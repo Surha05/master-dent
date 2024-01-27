@@ -44,7 +44,7 @@
               <div class="d-flex justify-content-center py-4">
                 <a href="index.html" class="logo d-flex align-items-center w-auto">
                   <img src="/img/logo.png">
-                  <span class="d-lg-block">Интеллект Про</span>
+                  <span class="d-lg-block">Мастер Дент</span>
                 </a>
               </div><!-- End Logo -->
 
