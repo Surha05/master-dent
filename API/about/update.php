@@ -3,8 +3,7 @@ include "../connect.php";
 
 $title = $_POST['title'];
 $description = $_POST['description'];
-$count = $_POST['count'];
-$countDesc = $_POST['countDesc'];
+$button = $_POST['button'];
 $photo = '';
 
 if (isset($_FILES['photo'])) {
@@ -12,7 +11,7 @@ if (isset($_FILES['photo'])) {
 }
 
 if ($connection) {
-  mysqli_query($connection, "UPDATE `about` SET `title` = '$title', `description` = '$description', `count` = '$count', `countDesc` = '$countDesc'  WHERE `about`.`id` = 1;");
+  mysqli_query($connection, "UPDATE `about` SET `title` = '$title', `description` = '$description', `button` = '$button'  WHERE `about`.`id` = 1;");
 
   if ($photo) {
     mysqli_query($connection, "UPDATE `about` SET `photo` = '$photo'  WHERE `about`.`id` = 1;");
@@ -21,7 +20,7 @@ if ($connection) {
 
 function make_upload($file) {
 	$name = 'r-' . mt_rand(0, 10000) . $file['name'];
-	$uploaddir = '../../img/about/';
+	$uploaddir = '../../images/about/';
 	$uploadfile = $uploaddir . basename($name);
 	move_uploaded_file($file['tmp_name'], $uploadfile);
 

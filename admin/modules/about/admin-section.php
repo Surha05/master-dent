@@ -18,13 +18,8 @@
               <div class="mb-1">
                 <textarea id="about-desc" class="form-control" style="height: 100px" placeholder="Описание"></textarea>
               </div>
-              <div class="mb-1 row">
-                <div class="col-6">
-                  <input id="about-count" class="form-control" placeholder="Девиз - количество">
-                </div>
-                <div class="col-6">
-                  <input id="about-count-desc" class="form-control" placeholder="Девиз - описание">
-                </div>
+              <div class="mb-1">
+                <input id="about-btn" class="form-control" placeholder="Текст на кнопке">
               </div>
               <div>
                 <input class="form-control" type="file" id="about-img">

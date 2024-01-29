@@ -1,8 +1,7 @@
 (function () {
   const inpTitle = document.querySelector('#about-title');
   const inpDesc = document.querySelector('#about-desc');
-  const inpCount = document.querySelector('#about-count');
-  const inpCountDesc = document.querySelector('#about-count-desc');
+  const inpBtn = document.querySelector('#about-btn');
   const inpImg = document.querySelector('#about-img');
   const btnSubmit = document.querySelector('#about-submit');
   let data = {};
@@ -15,15 +14,13 @@
     e.preventDefault();
     let title = inpTitle.value;
     let desc = inpDesc.value;
-    let count = inpCount.value;
-    let countDesc = inpCountDesc.value;
+    let button = inpBtn.value;
 
     const url = '/API/about/update.php';
     const formData = new FormData();
     formData.append('title', title);
     formData.append('description', desc);
-    formData.append('count', count);
-    formData.append('countDesc', countDesc);
+    formData.append('button', button);
     if(inpImg.files[0]) {
       formData.append('photo', inpImg.files[0]);
     }
@@ -38,7 +35,7 @@
         // getData();
       })
       .catch(() => {
-        alert('Ошибка обновления секции about');
+        alert('Ошибка обновления секции О нас');
       });
   }
   function getData() {
@@ -55,11 +52,10 @@
         console.log(error);
       });
   }
-  function render({ title, description, count, countDesc }) {
+  function render({ title, description, button }) {
     inpTitle.value = title;
     inpDesc.value = description;
-    inpCount.value = count;
-    inpCountDesc.value = countDesc;
+    inpBtn.value = button;
   }
   function choiceImg() {
     if (inpImg.files[0].type !== 'image/jpg' && inpImg.files[0].type !== 'image/jpeg' && inpImg.files[0].type !== 'image/png') {

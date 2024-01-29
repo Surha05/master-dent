@@ -16,10 +16,10 @@
                 <input id="hero-title" class="form-control" placeholder="Заголовок">
               </div>
               <div class="mb-1">
-                <input id="hero-btn" class="form-control" placeholder="Текст на кнопке">
+                <textarea id="hero-desc" class="form-control" style="height: 100px" placeholder="Описание"></textarea>
               </div>
               <div class="mb-1">
-                <textarea id="hero-desc" class="form-control" style="height: 100px" placeholder="Описание"></textarea>
+                <input id="hero-btn" class="form-control" placeholder="Текст на кнопке">
               </div>
               <div>
                 <input class="form-control" type="file" id="hero-img">
