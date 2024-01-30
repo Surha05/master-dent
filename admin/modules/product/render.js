@@ -1,9 +1,7 @@
 import { products } from '../../../API/product/get.js';
-import { category } from '../../../API/category/get.js';
 
 (function () {
   const section = document.querySelector('#product-section .admin-list');
-  const filterBtn = document.querySelector('#js-filter');
   const paginSection = document.querySelector('.pagination');
 
   let renderProducts = [];
@@ -14,14 +12,9 @@ import { category } from '../../../API/category/get.js';
     currentPage: 1,
   }
 
-  category.then(res => {
-    renderCategoryFilter(res);
-  });
-
   products.then((res) => {
     renderProducts = res;
     pagination(renderProducts);
-    filterBtn.addEventListener('change', () => {filter(res)});
     paginSection.addEventListener('click', paginClick);
   });
 
@@ -113,38 +106,16 @@ import { category } from '../../../API/category/get.js';
     paginRender(products);
   }
 
-  function renderCategoryFilter(categories) {
-    for(const item of categories) {
-      filterBtn.innerHTML += `
-        <option value="${item.name}">${item.name}</option>
-      `;
-    }
-  }
-
-  function filter(allProducts) {
-    renderProducts = [];
-    if(filterBtn.value === 'Все категории') {
-      renderProducts = allProducts;
-      pagination(renderProducts);
-      return;
-    }
-    for(const item of allProducts) {
-      if(filterBtn.value === item.category) renderProducts.push(item);
-    }
-    pagination(renderProducts);
-  }
-
   function render(arr) {
     section.innerHTML = '';
 
     for (const item of arr) {
       const block = `
       <div class="admin-list__item p-5" id="${item.id}">
-        <div class="w-100"><img src="/img/product/${item.photo}" class="w100"></div>
+        <div class="w-100"><img src="/images/product/${item.photo}" class="w100"></div>
         <div class="w-200 fw-bold" id="data-name">${item.name}</div>
-        <div class="w-150 fw-bold" id="data-category">${item.category}</div>
-        <div class="w-150 fw-bold" id="data-description">${item.description}</div>
-        <div style="display: none" id="data-full-description">${item.full_description}</div>
+        <div class="w-200 fw-bold" id="data-description">${item.description}</div>
+        <div class="w-200 fw-bold" id="data-full-description">${item.full_description}</div>
         <div class="ml-auto"><a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
             <li><a id="btn-edit-product" class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#edit-product-modal">Редактировать</a></li>

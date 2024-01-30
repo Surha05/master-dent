@@ -36,7 +36,7 @@
 <body>
 
    <?php
-   $page_title = 'Товары';
+   $page_title = 'Услуги';
    include '../../modules/header/header.php';
    include '../../modules/sidebar/sidebar.php';
    
@@ -47,7 +47,7 @@
    <main id="main" class="main">
 
       <div class="pagetitle">
-         <h1>Товары</h1>
+         <h1>Услуги</h1>
       </div>
 
       <?php include '../../modules/product/admin-section.php'; ?>

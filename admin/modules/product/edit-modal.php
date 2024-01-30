@@ -13,38 +13,16 @@
                   <input class="form-control" id="inp-name">
                </div>
                <div class="col-12">
-                  <div class="row">
-                     <div class="col-8">
-                        <label for="inp-price" class="form-label">Цена</label>
-                        <input class="form-control" id="inp-price">
-                     </div>
-                     <div class="col-4">
-                        <div class="form-check form-switch">
-                           <input class="form-check-input" type="checkbox" id="check-discount">
-                           <label class="form-check-label" for="check-discount">Скидка(%)</label>
-                        </div>
-                        <input class="form-control" id="inp-discount" value="0" type="number" disabled>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-12">
-                  <label for="inp-category" class="col-sm-2 col-form-label">Категория</label>
-                  <div class="col-12">
-                     <select class="form-select" id="inp-category">
-                        <!-- <option selected>Выберите категорию</option> -->
-                        <!-- <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option> -->
-                     </select>
-                  </div>
-               </div>
-               <div class="col-12">
                   <label for="inp-photo" class="col-sm-2 col-form-label">Фото</label>
                   <input class="form-control" type="file" id="inp-photo">
                </div>
                <div class="col-12">
-                  <label for="inp-description" class="col-sm-2 col-form-label">Описание</label>
+                  <label for="inp-description" class="col-form-label">Короткое описание</label>
                   <textarea class="form-control" id="inp-description"></textarea>
+               </div>
+               <div class="col-12">
+                  <label for="inp-full-description" class="col-form-label">Полное описание</label>
+                  <textarea class="form-control" id="inp-full-description"></textarea>
                </div>
             </form>
          </div>

@@ -9,20 +9,6 @@
                   
                   <div class="header-left-card-block">
                      <h5 class="card-title" id="add-btn" data-bs-toggle="modal" data-bs-target="#add-product-modal">+ Добавить услугу</h5>
-                     <div class="filter-block">
-                        <div class="">
-                           <select class="form-select" id="js-filter">
-                              <option value="Все категории" selected>Все категории</option>
-                              <!-- <option value="Урбеч">Урбеч</option>
-                              <option value="Балхам">Балхам</option>
-                              <option value="Кофе3">Кофе3</option> -->
-                           </select>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="search__block">
-                     <input placeholder="Поиск ..." class="search__input">
-                     <i class="bi bi-search"></i>
                   </div>
                   
                </div>
@@ -31,10 +17,8 @@
                <div class="flex w100 fw-bold mb-10 p-5">
                   <div class="w-100">Фото</div>
                   <div class="w-200">Название</div>
-                  <!-- <div class="w-150">Цена</div> -->
-                  <div class="w-150">Категория</div>
-                  <!-- <div class="w-100">Скидка</div> -->
-                  <div class="w-150">Описание</div>
+                  <div class="w-200">Краткое описание</div>
+                  <div class="w-200">Полное описание</div>
                   <div class="ml-auto">Редакт.</div>
                </div>
                <div class="admin-list mb20">

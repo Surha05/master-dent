@@ -18,9 +18,9 @@
       </li>
 
       <li class="nav-item">
-         <a class="nav-link <?php if($page_title !== 'Товары') echo 'collapsed'; ?>" href="/admin/pages/product/">
+         <a class="nav-link <?php if($page_title !== 'Услуги') echo 'collapsed'; ?>" href="/admin/pages/product/">
             <i class="bi bi-card-list"></i>
-            <span>Товары</span>
+            <span>Услуги</span>
          </a>
       </li>
 
