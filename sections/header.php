@@ -57,7 +57,7 @@
 										<div class="logo_text">Мастер<span>Дент</span></div>
 										<!-- <div class="logo_box">+</div> -->
 									</div>
-									<div class="logo_sub">Health Care Center</div>
+									<div class="logo_sub">Стоматологическая клиника</div>
 								</div>
 							</a>
 						</div>

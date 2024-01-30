@@ -30,7 +30,7 @@
 					</div>
 
 					<!-- Footer - Links -->
-					<div class="col-lg-4 footer_col">
+					<div class="col-lg-5 footer_col">
 						<div class="footer_links footer_column">
 							<div class="footer_title">Услуги</div>
 							<ul>
@@ -51,7 +51,7 @@
 					</div>
 
 					<!-- Footer - News -->
-					<div class="col-lg-4 footer_col">
+					<div class="col-lg-3 footer_col">
 						<div class="footer_news footer_column">
 							<div class="footer_title">Навигация</div>
 							<ul>

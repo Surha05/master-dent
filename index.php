@@ -38,5 +38,8 @@
 <script src="plugins/easing/easing.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/custom.js"></script>
+<script src="/sections/index/home.js"></script>
+<script src="/sections/index/about.js"></script>
+
 </body>
 </html>

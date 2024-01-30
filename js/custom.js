@@ -41,7 +41,7 @@ $(document).ready(function()
 	});
 
 	initMenu();
-	initHomeSlider();
+	// initHomeSlider();
 	initSvg();
 
 	/* 
