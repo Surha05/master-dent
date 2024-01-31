@@ -52,7 +52,7 @@
       <?php
          include 'modules/hero/admin-section.php';
          include 'modules/about/admin-section.php';
-         include 'modules/advantage/admin-section.php';
+         include 'modules/action/admin-section.php';
       ?>
 
    </main>
