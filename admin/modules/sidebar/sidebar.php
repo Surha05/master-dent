@@ -6,16 +6,16 @@
       <li class="nav-item">
          <a class="nav-link <?php if($page_title !== 'Главная') echo 'collapsed'; ?>" href="/admin/">
             <i class="bi bi-grid"></i>
-            <span>Главная</span>
+            <span>Секции</span>
          </a>
       </li>
 
-      <li class="nav-item">
-         <a class="nav-link <?php if($page_title !== 'Категории') echo 'collapsed'; ?>" href="/admin/pages/category/">
+      <!-- <li class="nav-item">
+         <a class="nav-link <?php if($page_title !== 'Услуги') echo 'collapsed'; ?>" href="/admin/pages/service/">
             <i class="bi bi-grid"></i>
-            <span>Категории</span>
+            <span>стр. Услуги</span>
          </a>
-      </li>
+      </li> -->
 
       <li class="nav-item">
          <a class="nav-link <?php if($page_title !== 'Услуги') echo 'collapsed'; ?>" href="/admin/pages/product/">
@@ -24,25 +24,25 @@
          </a>
       </li>
 
-      <li class="nav-item">
+      <!-- <li class="nav-item">
          <a class="nav-link <?php if($page_title !== 'Заказы') echo 'collapsed'; ?>" href="/admin/pages/order/">
             <i class="bi bi-card-list"></i>
             <span>Заказы</span>
          </a>
-      </li>
+      </li> -->
 
-      <li class="nav-item">
+      <!-- <li class="nav-item">
          <a class="nav-link <?php if($page_title !== 'Новости') echo 'collapsed'; ?>" href="/admin/pages/news/">
             <i class="bi bi-card-list"></i>
             <span>Новости</span>
          </a>
-      </li>
-      <li class="nav-item">
+      </li> -->
+      <!-- <li class="nav-item">
          <a class="nav-link <?php if($page_title !== 'Настройки') echo 'collapsed'; ?>" href="/admin/pages/settings/">
             <i class="bi bi-card-list"></i>
             <span>Настройки</span>
          </a>
-      </li>
+      </li> -->
 
    </ul>
 
