@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Админ панель Здоровый край</title>
+  <title>Админ панель Мастер Дент</title>
   <meta name=”robots” content=”noindex, nofollow”>
 
   <!-- Favicons -->
