@@ -40,6 +40,7 @@
 <script src="js/custom.js"></script>
 <script src="/sections/index/home.js"></script>
 <script src="/sections/index/about.js"></script>
+<script src="/js/modules/departments/render.js"></script>
 
 </body>
 </html>

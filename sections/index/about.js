@@ -1,7 +1,6 @@
 (function () {
   const titleBlock = document.querySelector('#js_about_title');
   const descBlock = document.querySelector('#js_about_text');
-  console.log(descBlock);
   const btn = document.querySelector('#js_about_btn');
   const imgBlock = document.querySelector('#js_about_img');
 
