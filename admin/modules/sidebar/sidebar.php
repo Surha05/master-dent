@@ -24,12 +24,12 @@
          </a>
       </li>
 
-      <!-- <li class="nav-item">
-         <a class="nav-link <?php if($page_title !== 'Заказы') echo 'collapsed'; ?>" href="/admin/pages/order/">
+      <li class="nav-item">
+         <a class="nav-link <?php if($page_title !== 'Преимущества') echo 'collapsed'; ?>" href="/admin/pages/advantage/">
             <i class="bi bi-card-list"></i>
-            <span>Заказы</span>
+            <span>Преимущества</span>
          </a>
-      </li> -->
+      </li>
 
       <!-- <li class="nav-item">
          <a class="nav-link <?php if($page_title !== 'Новости') echo 'collapsed'; ?>" href="/admin/pages/news/">
