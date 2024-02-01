@@ -47,6 +47,12 @@ h6 {
   transition: all 0.3s;
 }
 
+#hero-title, #hero-desc, #about-title, #about-desc {
+  word-break: break-word;
+}
+
+
+
 @media (max-width: 1199px) {
   #main {
     padding: 20px;

@@ -50,7 +50,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="logo_container">
-							<a href="#">
+							<a href="/">
 								<div class="logo_content d-flex flex-column align-items-start justify-content-center">
 									<div class="logo_line"></div>
 									<div class="logo d-flex flex-row align-items-center justify-content-center">
