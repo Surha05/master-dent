@@ -29,5 +29,6 @@
 <script src="plugins/easing/easing.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/news.js"></script>
+
 </body>
 </html>

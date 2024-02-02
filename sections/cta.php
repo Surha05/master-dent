@@ -1,5 +1,5 @@
-<div class="cta">
-		<div class="cta_background parallax-window" data-parallax="scroll" data-image-src="images/cta.jpg" data-speed="0.8"></div>
+<div class="cta js-cta">
+		<!-- <div class="cta_background parallax-window" data-parallax="scroll" data-image-src="images/cta.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -10,5 +10,5 @@
 					</div>
 				</div>
 			</div>
-		</div>		
+		</div>		 -->
 	</div>

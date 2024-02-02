@@ -10,7 +10,7 @@
 							<p id="js_about_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellen tesque in luctus ex. Praesent luctus erat sit amet tortor aliquam bibendum. Nulla ut molestie augue, scelerisque consectetur quam. Dolor sit amet, consectetur adipiscing elit. Cura bitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellentesque in luctus ex.</p>
 						</div>
 						<div class="button about_button">
-							<a href="#" id="js_about_btn">read more</a>
+							<a href="/about.php" id="js_about_btn">read more</a>
 						</div>
 					</div>
 				</div>

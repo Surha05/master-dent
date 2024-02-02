@@ -640,6 +640,8 @@ section {
   padding-right: 20px;
   margin-top: 10px;
   padding-left: 3px;
+  padding: 10px;
+
 }
 .home_text::before {
   content: '';
@@ -662,6 +664,7 @@ section {
   line-height: 1.75;
   word-break: break-word;
   z-index: 20;
+  white-space: pre-line;
 
 }
 .home_button {
@@ -807,6 +810,10 @@ section {
 .about_text {
   margin-top: 34px;
 }
+
+.about_text p {
+  white-space: pre-line;
+}
 .about_button {
   margin-top: 45px;
 }
@@ -844,7 +851,7 @@ section {
 }
 .dept {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 .dept_image {
   width: 100%;
@@ -894,10 +901,11 @@ section {
   transform: translateY(-9px);
 }
 .dept_button {
-  position: absolute;
+  /* position: absolute;
   bottom: 0;
-  left: 0;
+  left: 0; */
   background: #ffffff;
+  margin-top: 20px;
 }
 .dept_button a {
   color: #272727;
@@ -1044,12 +1052,15 @@ section {
   font-size: 48px;
   font-weight: 700;
   color: #ffffff;
+  word-spacing: pre-line;
 }
 .cta_content p {
   font-size: 14px;
   font-weight: 500;
   color: #ffffff;
   margin-top: -3px;
+  word-spacing: pre-line;
+
 }
 .cta_button {
   margin-top: 38px;

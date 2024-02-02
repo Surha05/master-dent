@@ -253,7 +253,11 @@ section {
   font-weight: 500;
   color: #232323;
   word-break: break-word;
+}
 
+.section_title-features h2 {
+  color: #fff;
+  margin-bottom: 50px;
 }
 .section_title::before {
   display: block;
@@ -766,6 +770,7 @@ section {
 }
 .features .container {
   max-width: 100%;
+  max-width: 1170px;
 }
 .features .container .row .col {
   padding-left: 0;
@@ -823,6 +828,30 @@ section {
 }
 .text_section_button {
   margin-top: 52px;
+}
+
+@media (min-width: 576px) {
+  .features .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .features .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .features .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .features .container {
+    max-width: 1170px;
+  }
 }
 
 /*********************************
