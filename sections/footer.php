@@ -33,8 +33,8 @@
 					<div class="col-lg-5 footer_col">
 						<div class="footer_links footer_column">
 							<div class="footer_title">Услуги</div>
-							<ul>
-								<li><a href="#">Терапевтическая стоматология</a></li>
+							<ul class="js-footer-services">
+								<!-- <li><a href="#">Терапевтическая стоматология</a></li>
 								<li><a href="#">Пародонтология</a></li>
 								<li><a href="#">Шинирование зубов</a></li>
 								<li><a href="#">Ортопедия</a></li>
@@ -45,7 +45,7 @@
 								<li><a href="#">News</a></li>
 								<li><a href="#">Contact</a></li>
 								<li><a href="#">Our Screening Program</a></li>
-								<li><a href="#">FAQ</a></li>
+								<li><a href="#">FAQ</a></li> -->
 							</ul>
 						</div>
 					</div>
@@ -103,3 +103,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Вс�
 			</div>			
 		</div>
 	</footer>
+
+	<script src="/js/modules/footer/render.js"></script>

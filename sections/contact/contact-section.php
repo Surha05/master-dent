@@ -18,27 +18,7 @@
 							</div>
 						</div>
 
-						<!-- Working Hours -->
-						<div class="box working_hours">
-						<div class="box_icon d-flex flex-column align-items-start justify-content-center"><div style="width:29px; height:29px;"><img src="images/alarm-clock.svg" alt=""></div></div>
-						<div class="box_title">Время работы</div>
-						<div class="working_hours_list">
-							<ul>
-								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div>Понедельник – Суббота:</div>
-									<div class="ml-auto">09.00 – 19.00</div>
-								</li>
-								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div>Воскресенье:</div>
-									<div class="ml-auto">Выходной</div>
-								</li>
-								<!-- <li class="d-flex flex-row align-items-center justify-content-start">
-									<div>Sunday</div>
-									<div class="ml-auto">9.30 – 15.00</div>
-								</li> -->
-							</ul>
-						</div>
-					</div>
+					
 
 					</div>
 
