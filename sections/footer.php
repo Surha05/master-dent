@@ -7,7 +7,7 @@
 					<div class="col-lg-4 footer_col">
 						<div class="footer_about">
 							<div class="footer_logo_container">
-								<a href="#" class="d-flex flex-column align-items-center justify-content-center">
+								<a href="/" class="d-flex flex-column align-items-center justify-content-center">
 									<div class="logo_content">
 										<div class="logo d-flex flex-row align-items-center justify-content-center">
 											<div class="logo_text">Мастер<span>Дент</span></div>

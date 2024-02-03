@@ -29,9 +29,11 @@
 
   function render(listProduct) {
     let fragment = '';
-    for (let i = 0; i < 3; i++) {
-      const li = template(listProduct[i]);
-      fragment += li;
+    for (let i = 0; i < listProduct.length; i++) {
+      if (i < 3) {
+        const li = template(listProduct[i]);
+        fragment += li;
+      }
     }
 
     section.insertAdjacentHTML('afterbegin', fragment);
@@ -41,7 +43,7 @@
     return `
       <div class="col-lg-3 col-md-6 dept_col" id=${id}>
         <div class="dept">
-          <div class="dept_image"><img src="images/dept_1.jpg" alt=""></div>
+          <div class="dept_image"><img src="/images/product/${photo}" alt=""></div>
             <div class="dept_content text-center">
               <div class="dept_title">${name}</div>
               <div class="dept_subtitle">${description}</div>

@@ -36,5 +36,11 @@
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/services.js"></script>
 <script src="js/modules/services/render.js"></script>
+<script src="/js/modules/advantage/page-render.js"></script>
+
+<script src="/js/modules/cta/render.js"></script>
+
+
+
 </body>
 </html>

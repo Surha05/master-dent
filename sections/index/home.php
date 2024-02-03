@@ -10,7 +10,7 @@
 											<p id="js_home_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus velit ullamcorper id. Quisque at erat eu.</p>
 										</div>
 										<div class="button home_button">
-											<a href="#" id="js_home_btn">read more</a>
+											<a href="tel:+79283782517" id="js_home_btn">read more</a>
 										</div>
 									</div>
 								</div>

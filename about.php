@@ -42,5 +42,7 @@
 <script src="plugins/easing/easing.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/about.js"></script>
+<script src="/js/modules/cta/render.js"></script>
+
 </body>
 </html>

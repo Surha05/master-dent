@@ -41,6 +41,10 @@
 <script src="/sections/index/home.js"></script>
 <script src="/sections/index/about.js"></script>
 <script src="/js/modules/departments/render.js"></script>
+<script src="/js/modules/advantage/section-render.js"></script>
+<script src="/js/modules/cta/render.js"></script>
+
+
 
 </body>
 </html>

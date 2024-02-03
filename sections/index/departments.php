@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<div class="section_title section_title_light"><h2>Our Medical Departments</h2></div>
+					<div class="section_title section_title_light"><h2>Наши Услуги</h2></div>
 				</div>
 			</div>
 			<div class="row departments_row row-md-eq-height js-departments_row">
