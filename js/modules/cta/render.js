@@ -39,18 +39,22 @@
 
   function template({ id, title, description, button, photo } = {}) {
     return `
-      <div class="cta_background parallax-window" data-parallax="scroll" data-image-src="/images/about/${photo}" data-speed="0.8""></div>
+    <div class="cta js-cta" id${id}>
+    <div class="cta_background" style="background-image: url('/images/about/${photo}')"></div>
+      <div class="cta-container" >
         <div class="container">
           <div class="row">
             <div class="col">
               <div class="cta_content text-center">
-                <h2>${title}?</h2>
+                <h2>${title}</h2>
                 <p>${description}</p>
-              <div class="button cta_button"><a href="#">${button}</a></div>
+                <div class="button cta_button"><a href="#">${button}</a></div>
+              </div>
             </div>
           </div>
-        </div
-
+        </div>		
+        </div>
+      </div>
     `;
   }
 })();
