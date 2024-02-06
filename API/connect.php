@@ -9,9 +9,9 @@ $connection = mysqli_connect($servername, $username, $password, $bdname);
 
 //база данных сайта
 // $servername = "localhost";
-// $username = "kamakmw_zdo_kray"; 
-// $password = "a12451245A"; 
-// $bdname = "kamakmw_zdo_kray"; 
+// $username = "n98948jc_m_dent"; 
+// $password = "Dagestan_05"; 
+// $bdname = "n98948jc_m_dent"; 
 // $connection = mysqli_connect($servername, $username, $password, $bdname);
 
 ?>
