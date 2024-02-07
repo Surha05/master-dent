@@ -411,7 +411,7 @@ section {
   height: 4px;
   background: #20d34a;
 }
-.logo { 
+.logo {
   margin-top: 27px;
 }
 .logo span {
@@ -641,7 +641,6 @@ section {
   margin-top: 10px;
   padding-left: 3px;
   padding: 10px;
-
 }
 .home_text::before {
   content: '';
@@ -653,7 +652,6 @@ section {
   right: 0;
   background: rgba(240, 236, 236, 0.8);
   z-index: 1;
-
 }
 .home_text p {
   position: relative;
@@ -665,7 +663,6 @@ section {
   word-break: break-word;
   z-index: 20;
   white-space: pre-line;
-
 }
 .home_button {
   margin-top: 34px;
@@ -835,7 +832,8 @@ section {
   background: transparent;
   padding-top: 75px;
   padding-bottom: 65px;
-  background: url(/images/services.jpg);
+  background: url(/images/services.jpg) no-repeat;
+  background-size: cover;
 }
 .departments_background {
   position: absolute;
@@ -882,8 +880,6 @@ section {
   color: #232323;
   word-break: break-word;
   padding: 0 10px;
-
-
 }
 .dept_subtitle {
   font-size: 14px;
@@ -891,7 +887,6 @@ section {
   color: #696969;
   margin-top: 5px;
   word-break: break-word;
-
 }
 .dept_text p {
   color: #ffffff;
@@ -924,6 +919,12 @@ section {
 }
 .services_row {
   margin-top: 95px;
+}
+
+.js-advantage_row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
 .service_col {
   margin-bottom: 30px;
@@ -998,6 +999,7 @@ section {
   -ms-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
+  word-break: break-word;
 }
 .service_title {
   font-size: 20px;
@@ -1005,6 +1007,7 @@ section {
   color: #232323;
   padding-top: 41px;
   margin-top: 26px;
+  word-break: break-word;
 }
 .service_title::before {
   display: block;
@@ -1075,7 +1078,6 @@ section {
   color: #ffffff;
   margin-top: -3px;
   word-spacing: pre-line;
-
 }
 .cta_button {
   margin-top: 38px;
@@ -1201,7 +1203,6 @@ section {
 .footer_news ul li:not(:last-child) {
   margin-bottom: 38px;
   margin-bottom: 36px;
-
 }
 .copyright {
   width: 100%;
