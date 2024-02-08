@@ -3,7 +3,7 @@
 	<?php
     $page = 'Контакты';
     $title_page="Стоматология Мастер-Дент";
-    include 'sections/contact/head.php' 
+    include 'sections/contact-page/head.php' 
   ?>
 <body>
 
@@ -16,9 +16,9 @@
 	<!-- Home -->
 	<!-- <?php include 'sections/contact/home.php'; ?> -->
 	<!-- Contact -->
-	<?php include 'sections/contact/contact-section.php'; ?>
+	<?php include 'sections/contact-page/contact-section.php'; ?>
 	<!-- Footer -->
-	<?php include 'sections/footer.php'; ?>
+	<?php include 'sections/footer/footer.php'; ?>
 
 </div>
 

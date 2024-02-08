@@ -14,18 +14,18 @@
 	<!-- Menu -->
 	<?php include 'sections/menu.php'; ?>
 		<!-- Features -->
-		<?php include 'sections/services-page/features.php'; ?>
+		<?php include 'sections/services-page/features-section/features.php'; ?>
 	<!-- Home -->
 	<!-- <?php include 'sections/services/home.php'; ?> -->
 	<!-- Services -->
-	<?php include 'sections/services-page/services-section.php'; ?>
+	<?php include 'sections/services-page/advantage-section/advantage.php'; ?>
 	<!-- Call to action -->
 	<?php include 'sections/cta.php'; ?>
 	<!-- Text Section -->
-	<?php include 'sections/services/text_section.php'; ?>
+	<?php include 'sections/services-page/help-section/text_section.php'; ?>
 
 	<!-- Footer -->
-	<?php include 'sections/footer.php'; ?>
+	<?php include 'sections/footer/footer.php'; ?>
 
 </div>
 
