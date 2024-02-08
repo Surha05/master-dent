@@ -5,7 +5,7 @@
 					<div class="section_title"><h2>Наши Преимущества</h2></div>
 				</div> 
 			</div>
-			<div class="row services_row js-advantage">
+			<div class="row services_row services-content js-advantage">
 				
 				<!-- Service -->
 				<!-- <div class="col-lg-4 col-md-6 service_col">

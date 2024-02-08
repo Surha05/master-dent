@@ -1002,9 +1002,17 @@ section
 }
 .team_member_title
 {
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 400;
 	color: #696969;
+	margin-top: 9px;
+}
+
+.team_member_desc
+{
+	font-size: 14px;
+	font-weight: 400;
+	color: #323030;
 	margin-top: 9px;
 }
 

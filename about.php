@@ -18,7 +18,7 @@
 	<!-- About -->
 	<?php include 'sections/about-page/about-section/about.php'; ?>
 	<!-- Testimonials -->
-	<?php include 'sections/about-page/testimonials//testimonials.php'; ?>
+	<?php include 'sections/about-page/testimonials-section/testimonials.php'; ?>
 	<!-- Team -->
 	<?php include 'sections/about-page/team-section/team.php'; ?>
 	<!-- Call to action -->

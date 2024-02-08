@@ -18,7 +18,7 @@
 8. Text Section
 9. CTA
 10. Footer
-
+ 
 
 
 ******************************/
@@ -652,15 +652,33 @@ section {
 .services_row {
   margin-top: 95px;
 }
+
+.services-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px 20px;
+}
+
+.server-link {
+  background: #f5f7fa;
+}
+.services-item {
+  display: grid;
+  align-items: stretch;
+}
+
 .service_col {
   margin-bottom: 30px;
 }
 .service {
+  position: relative;
   width: 100%;
-  background: #f5f7fa;
-  padding-top: 46px;
+  height: 100%;
+  /* background: #f5f7fa; */
+  /* padding-top: 46px;
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 57px; */
   padding-bottom: 57px;
 }
 .service:hover {
@@ -688,17 +706,20 @@ section {
   opacity: 1;
 }
 .service_icon {
-  width: 61px;
-  height: 61px;
+  width: 100%;
+  height: 320px;
   margin-left: auto;
   margin-right: auto;
 }
-.service_icon svg {
+/* .service_icon svg {
   width: 61px;
   height: 61px;
-}
+} */
+
 .service_icon img {
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .svg path,
 .svg rect,
@@ -725,6 +746,9 @@ section {
   -ms-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
+  word-break: break-word;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .service_title {
   font-size: 20px;
@@ -732,6 +756,9 @@ section {
   color: #232323;
   padding-top: 41px;
   margin-top: 26px;
+  word-break: break-word;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .service_title::before {
   display: block;
@@ -753,6 +780,45 @@ section {
 }
 .service:hover .service_text p {
   color: rgba(255, 255, 255, 0.65);
+}
+
+@media (max-width: 992px) {
+  .service_icon {
+    width: 100%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .service_icon {
+    width: 100%;
+    height: 250px;
+  }
+
+  .services-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .service_icon {
+    max-width: 100%;
+    height: 300px;
+  }
+
+  .services-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .services-item {
+    display: grid;
+    margin: 0 10px;
+    align-items: stretch;
+  }
 }
 
 /*********************************
