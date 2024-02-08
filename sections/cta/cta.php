@@ -17,4 +17,4 @@
 		</div> -->
 	</div>
 
-	<script src="/js/modules/cta/render.js"></script>
+	<script src="/sections/cta/render.js"></script>

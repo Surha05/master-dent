@@ -89,3 +89,5 @@
 			<div class="home_slider_progress"></div>
 		</div> -->
 	</div>
+
+	<script src="/sections/index-page/home-section/home.js"></script>

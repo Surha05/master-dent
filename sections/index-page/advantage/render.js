@@ -42,10 +42,12 @@
 
   function template({ id, name, photo, description } = {}) {
     return `
-      <div class="col-lg-4 col-md-6 service_col" id=${id}, >
-        <a href="/services.php">
+      <div class="services-item" id=${id}, >
+        <a href="/services.php" class="server-link">
           <div class="service text-center trans_200">
-            <div class="service_icon"><img class="svg" src="/images/advantage/${photo}" alt=""></div>
+            <div class="service_icon">
+              <img class="" src="/images/advantage/${photo}" alt="">
+            </div>
             <div class="service_title trans_200">${name}</div>
             <div class="service_text">
               <p>${description}.</p>

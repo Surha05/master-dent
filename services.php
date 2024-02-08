@@ -3,7 +3,7 @@
 	<?php
     $page = 'Услуги';
     $title_page="Стоматология Мастер-Дент";
-    include 'sections/services/head.php' 
+    include 'sections/services-page//head.php' 
   ?>
 <body>
 
@@ -14,11 +14,11 @@
 	<!-- Menu -->
 	<?php include 'sections/menu.php'; ?>
 		<!-- Features -->
-		<?php include 'sections/services/features.php'; ?>
+		<?php include 'sections/services-page/features.php'; ?>
 	<!-- Home -->
 	<!-- <?php include 'sections/services/home.php'; ?> -->
 	<!-- Services -->
-	<?php include 'sections/services/services-section.php'; ?>
+	<?php include 'sections/services-page/services-section.php'; ?>
 	<!-- Call to action -->
 	<?php include 'sections/cta.php'; ?>
 	<!-- Text Section -->
@@ -35,8 +35,6 @@
 <script src="plugins/easing/easing.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/services.js"></script>
-<script src="js/modules/services/render.js"></script>
-<script src="/js/modules/advantage/page-render.js"></script>
 
 
 

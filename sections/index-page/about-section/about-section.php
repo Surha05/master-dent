@@ -22,3 +22,5 @@
 			</div>
 		</div>
 	</div>
+
+	<script src="/sections/index-page/about-section/about.js"></script>

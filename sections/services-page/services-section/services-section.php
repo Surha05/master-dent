@@ -23,3 +23,5 @@
 			</div>
 		</div>
 	</div>
+
+	<script src="/sections/services-page/services-section/render.js"></script>

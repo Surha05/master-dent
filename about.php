@@ -3,7 +3,7 @@
 	<?php
     $page = 'О нас';
     $title_page="Стоматология Мастер-Дент";
-    include 'sections/about/head.php' 
+    include 'sections/about-page/head.php' 
   ?>
 <body>
 
@@ -14,17 +14,17 @@
 	<!-- Menu -->
 	<?php include 'sections/menu.php'; ?>
 	<!-- Home -->
-	<!-- <?php include 'sections/about/home.php'; ?> -->
+	<!-- <?php include 'sections/about-page/home-section/home.php'; ?> -->
 	<!-- About -->
-	<?php include 'sections/about/about.php'; ?>
+	<?php include 'sections/about-page/about-section/about.php'; ?>
 	<!-- Testimonials -->
-	<?php include 'sections/about/testimonials.php'; ?>
+	<?php include 'sections/about-page/testimonials//testimonials.php'; ?>
 	<!-- Team -->
-	<?php include 'sections/about/team.php'; ?>
+	<?php include 'sections/about-page/team-section/team.php'; ?>
 	<!-- Call to action -->
-	<?php include 'sections/cta.php'; ?>
+	<?php include 'sections/cta/cta.php'; ?>
 	<!-- Footer -->
-	<?php include 'sections/footer.php'; ?>
+	<?php include 'sections/footer/footer.php'; ?>
 
 
 </div>

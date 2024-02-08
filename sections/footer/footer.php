@@ -104,4 +104,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Вс�
 		</div>
 	</footer>
 
-	<script src="/js/modules/footer/render.js"></script>
+	<script src="/sections/footer/render.js"></script>
