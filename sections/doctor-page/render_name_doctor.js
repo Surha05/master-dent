@@ -1,5 +1,5 @@
 (function () {
-  const section = document.querySelector('.js-team');
+  const section = document.querySelector('.js-list-doctors');
 
   getData();
   function getData() {
@@ -40,18 +40,8 @@
 
   function template({ id, name, post, photo, description } = {}) {
     return `
-      <div class="col-lg-3 team_col" id=${id}>
-        <a href="/single-doctor.php?id=${id}" class="server-link">
-          <div class="team_member">
-            <div class="team_member_image d-flex flex-column align-items-center justify-content-end"><img src="images/doctor/${photo}" alt=""></div>
-            <div class="team_member_info">
-              <div class="team_member_name"><a href="#">${name}</a></div>
-              <div class="team_member_title">${post}</div>
-              <div class="team_member_desc">${description}</div>
-            </div>
-          </div>
-        </a>
-      </div>
+    <li id=${id}><a href="#">${name}</a></li>
+
     `;
   }
 })();
