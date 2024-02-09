@@ -3,7 +3,7 @@
 	<?php
     $page = 'Новости';
     $title_page="Стоматология Мастер-Дент";
-    include 'sections/news/head.php' 
+    include 'sections/news-page/head.php' 
   ?>
 <body>
 
@@ -17,9 +17,9 @@
 	<!-- <?php include 'sections/news/home.php'; ?> -->
 
 	<!-- News -->
-	<?php include 'sections/news/news-section.php'; ?>
+	<?php include 'sections/news-page/news-section.php'; ?>
 	<!-- Footer -->
-	<?php include 'sections/footer.php'; ?>
+	<?php include 'sections/footer/footer.php'; ?>
 
 </div>
 

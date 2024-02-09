@@ -19,4 +19,4 @@
 		</div>
 	</div>
 
-	<script src="/js/modules/help/render.js"></script>
+	<script src="/sections/services-page/help-section/render.js"></script>

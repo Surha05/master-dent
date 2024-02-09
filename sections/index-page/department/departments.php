@@ -52,3 +52,5 @@
 			</div>
 		</div>
 	</div>
+
+	<script src="/sections/index-page/department/render.js"></script>

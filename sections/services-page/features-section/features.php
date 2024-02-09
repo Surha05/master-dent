@@ -29,3 +29,5 @@
 			</div>
 		</div>		
 	</div>
+
+	<script src="sections/services-page/features-section/render.js"></script>

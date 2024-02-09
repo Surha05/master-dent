@@ -3,7 +3,7 @@
 	<?php
     $page = 'Главная';
     $title_page="Стоматология Мастер-Дент";
-    include 'sections/index/head.php' 
+    include 'sections/index-page/head.php' 
   ?>
 <body>
 
@@ -14,19 +14,19 @@
 	<!-- Menu -->
 	<?php include 'sections/menu.php'; ?>
 	<!-- Home -->
-	<?php include 'sections/index/home.php'; ?>
+	<?php include 'sections/index-page/home-section/home.php'; ?>
 	<!-- 3 Boxes -->
-	<?php include 'sections/index/boxes-work.php'; ?>
+	<?php include 'sections/index-page/boxes-work.php'; ?>
 	<!-- About -->
-	<?php include 'sections/index/about-section.php'; ?>
+	<?php include 'sections/index-page/about-section/about-section.php'; ?>
 	<!-- Departments -->
-	<?php include 'sections/index/departments.php'; ?>
+	<?php include 'sections/index-page/department/departments.php'; ?>
 	<!-- Services -->
-	<?php include 'sections/index/services.php'; ?>
+	<?php include 'sections/index-page/advantage/services.php'; ?>
 	<!-- Call to action -->
-	<?php include 'sections/cta.php'; ?>
+	<?php include 'sections/cta/cta.php'; ?>
 	<!-- Footer -->
-	<?php include 'sections/footer.php'; ?>
+	<?php include 'sections/footer/footer.php'; ?>
 
 
 </div>
@@ -38,10 +38,6 @@
 <script src="plugins/easing/easing.js"></script>
 <!-- <script src="plugins/parallax-js-master/parallax.min.js"></script> -->
 <script src="js/custom.js"></script>
-<script src="/sections/index/home.js"></script>
-<script src="/sections/index/about.js"></script>
-<script src="/js/modules/departments/render.js"></script>
-<script src="/js/modules/advantage/section-render.js"></script>
 
 
 
