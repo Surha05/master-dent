@@ -6,7 +6,7 @@
 					<div class="section_title section_title_light"><h2>Наши Услуги</h2></div>
 				</div>
 			</div>
-			<div class="row departments_row row-md-eq-height js-departments_row">
+			<div class="row departments_row row-md-eq-height dept-content js-departments_row">
 				<!-- Department -->
 				<!-- <div class="col-lg-3 col-md-6 dept_col">
 					<div class="dept">

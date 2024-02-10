@@ -41,7 +41,7 @@
 
   function template({ id, name, photo, description } = {}) {
     return `
-      <div class="col-lg-3 col-md-6 dept_col" id=${id}>
+      <div class="col-lg-3 col-md-6 dept_col dep-item" id=${id}>
         <div class="dept">
           <div class="dept_image"><img src="/images/product/${photo}" alt=""></div>
             <div class="dept_content text-center">
