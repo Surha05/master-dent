@@ -585,7 +585,7 @@ section {
   font-size: 13px;
   color: #272727;
 }
-
+.menu_mm .dropdown ul,
 .main_nav .dropdown ul {
   display: block;
   position: absolute;
@@ -601,18 +601,18 @@ section {
   transition: 0.3s;
   border-radius: 4px;
 }
-
+.menu_mm .dropdown ul li,
 .main_nav .dropdown ul li {
   min-width: 200px;
 }
-
+.menu_mm .dropdown ul a,
 .main_nav .dropdown ul a {
   padding: 10px 20px;
   font-size: 15px;
   text-transform: none;
   font-weight: 600;
 }
-
+.menu_mm .dropdown:hover > ul,
 .main_nav .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
