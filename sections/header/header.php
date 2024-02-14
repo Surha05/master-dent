@@ -29,12 +29,22 @@
 					<div class="col">
 						<div class="header_content d-flex flex-row align-items-center justify-content-start">
 							<nav class="main_nav ml-auto">
-								<ul>
-									<li><a href="index.php">Главная</a></li>
-									<li><a href="about.php">О нас</a></li>
-									<li><a href="services.php">Услуги</a></li>
-									<li><a href="news.php">Новости</a></li>
-									<li><a href="contact.php">Контакты</a></li>
+								<ul class="main_nav-list">
+									<li class="main_nav-item"><a href="index.php">Главная</a></li>
+									<li class="main_nav-item"><a href="about.php">О нас</a></li>
+									<li class="main_nav-item"><a href="services.php">Услуги</a></li>
+									<li class="main_nav-item"><a href="news.php">Новости</a></li>
+									<li class="main_nav-item dropdown"><a href="news.php">Доктора</a>
+										<ul class="js-dropdown">
+											<!-- <li><a href="#">Deep Drop Down 1</a></li>
+											<li><a href="#">Deep Drop Down 2</a></li>
+											<li><a href="#">Deep Drop Down 3</a></li>
+											<li><a href="#">Deep Drop Down 4</a></li>
+											<li><a href="#">Deep Drop Down 5</a></li> -->
+										</ul>
+									</li>
+
+									<li class="main_nav-item"><a href="contact.php">Контакты</a></li>
 								</ul>
 							</nav>
 							<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
@@ -67,3 +77,5 @@
 		</div>
 
 	</header>
+
+	<script src="/sections/header/nav-dropdowns.js"></script>

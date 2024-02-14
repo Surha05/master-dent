@@ -14,7 +14,16 @@
       <li class="menu_item menu_mm"><a href="services.php">Услуги</a></li>
       <li class="menu_item menu_mm"><a href="news.php">Новости</a></li>
       <li class="menu_item menu_mm"><a href="contact.php">Контакты</a></li>
-    </ul>
+      <li class="menu_item main_nav-item dropdown"><a href="news.php">Доктора</a>
+				<ul class="js-dropdown-mobail">
+					<!-- <li><a href="#">Deep Drop Down 1</a></li>
+					<li><a href="#">Deep Drop Down 2</a></li>
+					<li><a href="#">Deep Drop Down 3</a></li>
+					<li><a href="#">Deep Drop Down 4</a></li>
+					<li><a href="#">Deep Drop Down 5</a></li> -->
+				</ul>
+			</li>
+    </ul> 
   </div>
   <div class="menu_extra">
     <div class="menu_appointment"><a href="#">г. Пятигорск, ул. Коллективная, д. 1</a></div>
@@ -26,3 +35,5 @@
 </div>
 
 </div>
+
+<script src="/sections/menu-mob.js"></script>

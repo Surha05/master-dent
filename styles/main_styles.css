@@ -345,7 +345,7 @@ section {
 .main_nav ul li {
   display: inline-block;
 }
-.main_nav ul li:not(:first-child) {
+.main_nav .main_nav-list .main_nav-item:not(:first-child) {
   margin-left: 32px;
 }
 .main_nav ul li a {
@@ -584,6 +584,39 @@ section {
 .menu_emergencies {
   font-size: 13px;
   color: #272727;
+}
+.menu_mm .dropdown ul,
+.main_nav .dropdown ul {
+  display: block;
+  position: absolute;
+  /* left: 28px; */
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  border-radius: 4px;
+}
+.menu_mm .dropdown ul li,
+.main_nav .dropdown ul li {
+  min-width: 200px;
+}
+.menu_mm .dropdown ul a,
+.main_nav .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-transform: none;
+  font-weight: 600;
+}
+.menu_mm .dropdown:hover > ul,
+.main_nav .dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
 }
 
 /*********************************
@@ -850,13 +883,26 @@ section {
 }
 .dept {
   width: 100%;
-  /* height: 100%; */
+  display: grid;
+}
+
+/* .dept-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: stretch;
+} */
+
+.dep-item {
+  display: grid;
+  align-items: stretch;
 }
 .dept_image {
   width: 100%;
+  height: 300px;
 }
 .dept_image img {
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
 }
 .dept_content {
   padding-top: 48px;
@@ -907,6 +953,34 @@ section {
   color: #272727;
 }
 
+@media (max-width: 1200px) {
+  .dept_image {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+@media (max-width: 992px) {
+  .dept_image {
+    width: 100%;
+    height: 330px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dept_image {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 414px) {
+  .dept_image {
+    width: 100%;
+    height: 300px;
+  }
+}
+
 /*********************************
 9. Services
 *********************************/
@@ -919,7 +993,7 @@ section {
 }
 .services_row {
   margin-top: 95px;
-} 
+}
 
 .services-content {
   display: grid;

@@ -10,7 +10,7 @@
 <div class="super_container">
 	
 	<!-- Header -->
-	<?php include 'sections/header.php'; ?>
+	<?php include 'sections/header/header.php'; ?>
 	<!-- Menu -->
 	<?php include 'sections/menu.php'; ?>
 	<!-- Home -->

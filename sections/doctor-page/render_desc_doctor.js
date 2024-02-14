@@ -61,7 +61,6 @@
         <div class="news_text">
           <p>${full_description}.</p>
         </div>
-        <div class="news_link"><a href="#">Read More</a></div>
       </div>
     </div>
     `;

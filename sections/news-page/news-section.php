@@ -108,13 +108,13 @@
 							<div class="sidebar_section_title">
 								<div class="sidebar_title">Услуги</div>
 							</div>
-							<ul>
-								<li><a href="#">Терапевтическая стоматология</a></li>
+							<ul class="js-news-sidebar">
+								<!-- <li><a href="#">Терапевтическая стоматология</a></li>
 								<li><a href="#">Пародонтология</a></li>
 								<li><a href="#">Шинирование зубов</a></li>
 								<li><a href="#">Ортопедия</a></li>
 								<li><a href="#">Хирургия</a></li>
-								<li><a href="#">Ортодонтия</a></li>
+								<li><a href="#">Ортодонтия</a></li> -->
 
 							</ul>
 						</div>
@@ -177,3 +177,5 @@
 			</div>
 		</div>
 	</div>
+
+	<script src="/sections/news-page/render-services.js"></script>

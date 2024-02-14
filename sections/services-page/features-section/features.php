@@ -4,7 +4,7 @@
 				<div class="col">
 				<div class="section_title section_title-features"><h2>Наши Услуги</h2></div>
 
-					<div class="features_container d-flex flex-row flex-wrap align-items-start justify-content-between js-features-services">
+					<div class="features_container features-content js-features-services">
 						
 						<!-- Feature -->
 						<!-- <div class="feature">
