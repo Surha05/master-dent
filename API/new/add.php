@@ -20,7 +20,7 @@ function make_upload($file)
 	// формируем уникальное имя картинки: name и случайное число
 	$name = 'r-' . mt_rand(0, 10000) . $file['name'];
 	// формируем путь к папке загрузки
-	$uploaddir = '../../img/new/';
+	$uploaddir = '../../images/new/';
 	$uploadfile = $uploaddir . basename($name);
 	// переносим файл в папку
 	move_uploaded_file($file['tmp_name'], $uploadfile);

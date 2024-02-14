@@ -37,6 +37,12 @@
             <span>Специалисты</span>
          </a>
       </li>
+      <li class="nav-item">
+         <a class="nav-link <?php if($page_title !== 'Новости') echo 'collapsed'; ?>" href="/admin/pages/news/">
+            <i class="bi bi-card-list"></i>
+            <span>Новости</span>
+         </a>
+      </li>
       <!-- <li class="nav-item">
          <a class="nav-link <?php if($page_title !== 'Настройки') echo 'collapsed'; ?>" href="/admin/pages/settings/">
             <i class="bi bi-card-list"></i>

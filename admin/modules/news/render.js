@@ -112,7 +112,7 @@ import { news } from '../../../API/new/get.js';
     for (const item of arr) {
       const block = `
       <div class="admin-list__item p-5" id="${item.id}">
-        <div class="w-100"><img src="/img/new/${item.photo}" class="w100"></div>
+        <div class="w-100"><img src="/images/new/${item.photo}" class="w100"></div>
         <div class="w-300 fw-bold" id="data-name">${item.name}</div>
         <div style="display: none;" class="w-300 fw-bold" id="data-desc">${item.description}</div>
         <div class="ml-auto"><a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
