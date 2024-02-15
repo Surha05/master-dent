@@ -15,43 +15,43 @@
               <div class="row mb-2">
                 <div class="col-6">
                   <label for="phone" class="form-label">Телефон 1</label>
-                  <input id="phone" class="form-control" placeholder="Телефон">
+                  <input id="phone" class="form-control">
                 </div>
                 <div class="col-6">
                   <label for="view-phone" class="form-label">Телефон 1. Вид</label>
-                  <input id="view-phone" class="form-control" placeholder="Телефон">
+                  <input id="view-phone" class="form-control">
                 </div>
               </div>
               <div class="row mb-2">
                 <div class="col-6">
                   <label for="phone2" class="form-label">Телефон 2</label>
-                  <input id="phone2" class="form-control" placeholder="Телефон 2">
+                  <input id="phone2" class="form-control">
                 </div>
                 <div class="col-6">
                   <label for="view-phone2" class="form-label">Телефон 2. Вид</label>
-                  <input id="view-phone2" class="form-control" placeholder="Телефон 2">
+                  <input id="view-phone2" class="form-control">
                 </div>
 
               </div>
               <div class="mb-2">
-                <label for="wa" class="form-label">WhatsApp</label>
-                <input id="wa" class="form-control" placeholder="Номер WhatsApp">
+                <label for="wa" class="form-label">Номер WhatsApp</label>
+                <input id="wa" class="form-control">
               </div>
               <div class="mb-2">
-                <label for="telegram" class="form-label">Telegram</label>
-                <input id="telegram" class="form-control" placeholder="Номер или ник Telegram">
+                <label for="telegram" class="form-label">Номер или ник Telegram</label>
+                <input id="telegram" class="form-control">
               </div>
               <div class="mb-2">
-                <label for="insta" class="form-label">Instagram</label>
-                <input id="insta" class="form-control" placeholder="Ссылка Instagram">
+                <label for="insta" class="form-label">Ссылка Instagram</label>
+                <input id="insta" class="form-control">
               </div>
               <div class="mb-2">
                 <label for="mail" class="form-label">E-mail</label>
-                <input id="mail" class="form-control" placeholder="E-mail">
+                <input id="mail" class="form-control">
               </div>
               <div class="mb-2">
                 <label for="clock-work" class="form-label">Часы работы</label>
-                <input id="clock-work" class="form-control" placeholder="Часы работы">
+                <textarea id="clock-work" class="form-control"></textarea>
               </div>
             </div>
           </form>

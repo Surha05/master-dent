@@ -27,10 +27,9 @@
   <link href="/admin/assets/vendor/simple-datatables/style.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="/css/standart.css" rel="stylesheet">
-  <link href="/css/admin.css" rel="stylesheet">
-  <link href="/admin/assets/css/style.css" rel="stylesheet">
-
+  <link href="/admin/assets/css/standart.css" rel="stylesheet">
+   <link href="/admin/assets/css/admin.css" rel="stylesheet">
+   <link href="/admin/assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
