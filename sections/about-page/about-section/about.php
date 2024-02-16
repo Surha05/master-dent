@@ -9,25 +9,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellen tesque in luctus ex. Praesent luctus erat sit amet tortor aliquam bibendum. Nulla ut molestie augue, scelerisque consectetur quam. Dolor sit amet, consectetur adipiscing elit. Cura bitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellentesque in luctus ex.</p>
 						<p>Praesent luctus erat sit amet tortor aliquam bibendum. Nulla ut molestie augue, scelerisque consectetur quam. Dolor sit amet, consectetur adipiscing elit. Cura bitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellentesque in luctus ex.</p>
 					</div>
-					<div class="row loaders_container">
-						<div class="col-md-3 loader_col">
-							<!-- Loader -->
-							<div class="loader" data-perc="0.75"><span>Hard Work</span></div>
-						</div>
-						<div class="col-md-3 loader_col">
-							<!-- Loader -->
-							<div class="loader" data-perc="0.95"><span>Passion</span></div>
-						</div>
-						<div class="col-md-3 loader_col">
-							<!-- Loader -->
-							<div class="loader" data-perc="0.75"><span>Hard Work</span></div>
-						</div>
-						<div class="col-md-3 loader_col">
-							<!-- Loader -->
-							<div class="loader" data-perc="0.95"><span>Passion</span></div>
-						</div>
-					</div>
-					<div class="button about_button"><a href="#">read more</a></div>
+				
 				</div>
 
 				<!-- Boxes -->

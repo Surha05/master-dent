@@ -887,24 +887,17 @@ section {
   grid-template-rows: 1fr 1fr;
 }
 
-/* .dept-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  align-items: stretch;
-} */
-
 .dep-item {
   display: grid;
   align-items: stretch;
 }
 .dept_image {
   width: 100%;
-  height: 300px;
 }
 .dept_image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .dept_content {
   height: 100%;

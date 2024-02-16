@@ -34,7 +34,7 @@
     }
 
     section.insertAdjacentHTML('afterbegin', fragment);
-  }
+  } 
 
   function template({ id, name, photo, full_description } = {}) {
     return `
