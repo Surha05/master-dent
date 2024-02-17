@@ -10,15 +10,15 @@
          </a>
       </li>
 
-      <!-- <li class="nav-item">
-         <a class="nav-link <?php if($page_title !== 'Услуги') echo 'collapsed'; ?>" href="/admin/pages/service/">
+      <li class="nav-item">
+         <a class="nav-link <?php if($page_title !== 'Категории услуг') echo 'collapsed'; ?>" href="/admin/pages/product/">
             <i class="bi bi-grid"></i>
-            <span>стр. Услуги</span>
+            <span>Категории услуг</span>
          </a>
-      </li> -->
+      </li>
 
       <li class="nav-item">
-         <a class="nav-link <?php if($page_title !== 'Услуги') echo 'collapsed'; ?>" href="/admin/pages/product/">
+         <a class="nav-link <?php if($page_title !== 'Услуги') echo 'collapsed'; ?>" href="/admin/pages/service/">
             <i class="bi bi-card-list"></i>
             <span>Услуги</span>
          </a>

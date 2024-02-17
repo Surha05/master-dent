@@ -36,10 +36,10 @@
 <body>
 
    <?php
-   $page_title = 'Категории услуг';
+   $page_title = 'Услуги';
    include '../../modules/header/header.php';
    include '../../modules/sidebar/sidebar.php';
-   
+
    ?>
 
 
@@ -47,10 +47,10 @@
    <main id="main" class="main">
 
       <div class="pagetitle">
-         <h1>Категории услуг</h1>
+         <h1>Услуги</h1>
       </div>
 
-      <?php include '../../modules/product/admin-section.php'; ?>
+      <?php include '../../modules/service/admin-section.php'; ?>
 
    </main>
 

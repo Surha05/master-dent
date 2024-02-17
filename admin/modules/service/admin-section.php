@@ -6,19 +6,18 @@
 
             <div class="card-body pb-0">
                <div class="header-card-body">
-                  
+
                   <div class="header-left-card-block">
-                     <h5 class="card-title" id="add-btn" data-bs-toggle="modal" data-bs-target="#add-product-modal">+ Добавить категорию</h5>
+                     <h5 class="card-title" id="add-btn" data-bs-toggle="modal" data-bs-target="#add-product-modal">+ Добавить услугу</h5>
                   </div>
-                  
+
                </div>
-               
+
 
                <div class="flex w100 fw-bold mb-10 p-5">
-                  <div class="w-100">Фото</div>
                   <div class="w-200">Название</div>
-                  <div class="w-200">Краткое описание</div>
-                  <div class="w-200">Полное описание</div>
+                  <div class="w-200">Цена</div>
+                  <div class="w-200">Категория</div>
                   <div class="ml-auto">Редакт.</div>
                </div>
                <div class="admin-list mb20">
@@ -59,11 +58,11 @@
 
    </div>
 </section>
-<?php 
-include '../../modules/product/add-modal.php';
-include '../../modules/product/edit-modal.php';
+<?php
+include '../../modules/service/add-modal.php';
+include '../../modules/service/edit-modal.php';
 ?>
-<script src="/admin/modules/product/render.js" type="module"></script>
-<script src="/admin/modules/product/add.js"></script>
-<script src="/admin/modules/product/del.js"></script>
-<script src="/admin/modules/product/edit.js"></script>
+<script src="/admin/modules/service/render.js" type="module"></script>
+<script src="/admin/modules/service/add.js"></script>
+<script src="/admin/modules/service/del.js"></script>
+<script src="/admin/modules/service/edit.js" type="module"></script>
