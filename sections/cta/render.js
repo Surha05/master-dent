@@ -20,14 +20,14 @@
           });
         }
 
-        render(listItem);
+        renderSection(listItem);
       })
       .catch((error) => {
         console.log(error);
       });
   }
 
-  function render(listItem) {
+  function renderSection(listItem) {
     let fragment = '';
     listItem.forEach((item) => {
       const li = template(item);
@@ -35,6 +35,30 @@
     });
 
     section.insertAdjacentHTML('afterbegin', fragment);
+
+    let linkTell = document.querySelector('.cta-tell');
+    let data = {};
+
+    getDataTell();
+
+    function getDataTell() {
+      const url = '/API/contact/get.php';
+
+      fetch(url)
+        .then((res) => res.json())
+        .then((res) => {
+          data = res[0];
+          renderTell(data);
+        })
+        .catch((error) => {
+          alert('При загрузке секции Cta произошла ошибка');
+          console.log(error);
+        });
+    }
+
+    function renderTell({ phone }) {
+      linkTell.href = 'tel:' + phone;
+    }
   }
 
   function template({ id, title, description, button, photo } = {}) {
@@ -48,7 +72,7 @@
               <div class="cta_content text-center">
                 <h2>${title}</h2>
                 <p>${description}</p>
-                <div class="button cta_button"><a href="#">${button}</a></div>
+                <div class="button cta_button"><a href="#" class="cta-tell">${button}</a></div>
               </div>
             </div>
           </div>

@@ -21,9 +21,9 @@
 								<p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum.</p>
 							</div>
 							<ul class="footer_about_list">
-								<li><div class="footer_about_icon"><img src="images/phone-call.svg" alt=""></div><span><a href="tel:+79283782517">8 (928) 378-25-17</a></span></li>
-								<li><div class="footer_about_icon"><img src="images/phone-call.svg" alt=""></div><span><a href="tel:+79283488884">8 (938) 348-88-84</a></span></li>
-								<li><div class="footer_about_icon"><img src="images/envelope.svg" alt=""></div><span><a href="mailto:masterdent26@bk.ru">masterdent26@bk.ru</a></span></li>
+								<li><div class="footer_about_icon"><img src="images/phone-call.svg" alt=""></div><span><a id="footer_phone-1" href="tel:+79283782517">8 (928) 378-25-17</a></span></li>
+								<li><div class="footer_about_icon"><img src="images/phone-call.svg" alt=""></div><span><a id="footer_phone-2" href="tel:+79283488884">8 (938) 348-88-84</a></span></li>
+								<li><div class="footer_about_icon"><img src="images/envelope.svg" alt=""></div><span><a id="footer_envelope" href="mailto:masterdent26@bk.ru">masterdent26@bk.ru</a></span></li>
 								<li><div class="footer_about_icon"><img src="images/placeholder.svg" alt=""></div><span>г. Пятигорск, ул. Коллективная, д. 1</span></li>
 							</ul>
 						</div>
@@ -91,10 +91,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Вс�
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 							<div class="footer_social ml-lg-auto">
 								<ul>
-									<li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-					
+									<li><a id="footer-whatsapp" href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+									<li><a id="footer-instagram"  href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+									<li><a id="footer-envelope" href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -105,3 +104,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Вс�
 	</footer>
 
 	<script src="/sections/footer/render.js"></script>
+	<script src="/sections/footer/render-contact-info.js"></script>

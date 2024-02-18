@@ -16,7 +16,7 @@
 	<!-- Home -->
 	<?php include 'sections/index-page/home-section/home.php'; ?>
 	<!-- 3 Boxes -->
-	<?php include 'sections/index-page/boxes-work.php'; ?>
+	<?php include 'sections/index-page/boxes-work/boxes-work.php'; ?>
 	<!-- About -->
 	<?php include 'sections/index-page/about-section/about-section.php'; ?>
 	<!-- Departments -->

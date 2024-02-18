@@ -34,9 +34,9 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa.</p>
 					</div>
 					<ul class="contact_about_list">
-						<li><div class="contact_about_icon"><img src="images/phone-call.svg" alt=""></div><span><a href="tel:+79283782517">8 (928) 378-25-17</a> </span></li>
-						<li><div class="contact_about_icon"><img src="images/phone-call.svg" alt=""></div><span><a href="tel:+79283488884">8 (938) 348-88-84</a> </span></li>
-						<li><div class="contact_about_icon"><img src="images/envelope.svg" alt=""></div><span><a href="mailto:masterdent26@bk.ru">masterdent26@bk.ru</a> </span></li>
+						<li><div class="contact_about_icon"><img src="images/phone-call.svg" alt=""></div><span><a id="contact_phone-1" href="tel:+79283782517">8 (928) 378-25-17</a> </span></li>
+						<li><div class="contact_about_icon"><img src="images/phone-call.svg" alt=""></div><span><a id="contact_phone-2" href="tel:+79283488884">8 (938) 348-88-84</a> </span></li>
+						<li><div class="contact_about_icon"><img src="images/envelope.svg" alt=""></div><span><a id="contact-envelope" href="mailto:masterdent26@bk.ru">masterdent26@bk.ru</a> </span></li>
 						<li><div class="contact_about_icon"><img src="images/placeholder.svg" alt=""></div><span>г. Пятигорск, ул. Коллективная, д. 1</span></li>
 					</ul>
 				</div>
@@ -50,3 +50,5 @@
 		
 		</div>
 	</div>
+
+	<script src="/sections/contact-page/render-contact-info.js"></script>
