@@ -34,7 +34,7 @@
 									<li class="main_nav-item"><a href="about.php">О нас</a></li>
 									<li class="main_nav-item"><a href="services.php">Услуги</a></li>
 									<li class="main_nav-item"><a href="news.php">Новости</a></li>
-									<li class="main_nav-item dropdown"><a href="news.php">Доктора</a>
+									<li class="main_nav-item dropdown"><a href="" class="js-link-doctors">Доктора</a>
 										<ul class="js-dropdown">
 											<!-- <li><a href="#">Deep Drop Down 1</a></li>
 											<li><a href="#">Deep Drop Down 2</a></li>

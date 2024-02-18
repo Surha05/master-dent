@@ -4,7 +4,7 @@
 				
 				<!-- News Posts -->
 				<div class="col-lg-8">
-					<div class="news_posts js-posts">
+					<div class="news_posts js-single-post">
 						
 						<!-- News Post -->
 						<!-- <div class="news_post">
@@ -123,4 +123,4 @@
 	</div>
 
 	<script src="/sections/news-page/render-services.js"></script>
-	<script src="/sections/news-page/render-news.js"></script>
+	<script src="/sections/news-single-page/render-single.new.js"></script>
