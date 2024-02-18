@@ -34,11 +34,11 @@
     }
 
     section.insertAdjacentHTML('afterbegin', fragment);
-  } 
+  }  
 
   function template({ id, name, photo, full_description } = {}) {
     return `
-    <div class="feature feature-item" id=${id}>
+    <div class="feature-item" id=${id}>
       <div class="feature_image"><img src="/images/product/${photo}" alt=""></div>
       <div class="feature_content">
         <div class="section_title"><h2>${name}</h2></div>

@@ -15,7 +15,7 @@
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semp er solli citudin. Aliquam nec dapibus massa.</p>
 								</div>
 							</div>
-						</div> -->
+						</div> --> 
 
 				
 
