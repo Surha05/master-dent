@@ -44,6 +44,12 @@
          </a>
       </li>
       <li class="nav-item">
+         <a class="nav-link <?php if($page_title !== 'Отзывы') echo 'collapsed'; ?>" href="/admin/pages/feedback/">
+            <i class="bi bi-card-list"></i>
+            <span>Отзывы</span>
+         </a>
+      </li>
+      <li class="nav-item">
          <a class="nav-link <?php if($page_title !== 'Настройки') echo 'collapsed'; ?>" href="/admin/pages/settings/">
             <i class="bi bi-card-list"></i>
             <span>Настройки</span>
