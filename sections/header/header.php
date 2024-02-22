@@ -11,8 +11,8 @@
 						</a>
 					</div> -->
 							<div class="emergencies  d-flex flex-row flex-column align-items-center justify-content-center ml-auto">
-								<a href="tel:+79283782517">8 (928) 378-25-17</a>
-								<a href="tel:+79283488884">8 (938) 348-88-84</a>
+								<a id="header__tell-1" href="tel:+79283782517">8 (928) 378-25-17</a>
+								<a id="header__tell-2" href="tel:+79283488884">8 (938) 348-88-84</a>
 
 						 </div>
 						</div>
@@ -34,7 +34,7 @@
 									<li class="main_nav-item"><a href="about.php">О нас</a></li>
 									<li class="main_nav-item"><a href="services.php">Услуги</a></li>
 									<li class="main_nav-item"><a href="news.php">Новости</a></li>
-									<li class="main_nav-item dropdown"><a href="news.php">Доктора</a>
+									<li class="main_nav-item dropdown"><a href="" class="js-link-doctors">Доктора</a>
 										<ul class="js-dropdown">
 											<!-- <li><a href="#">Deep Drop Down 1</a></li>
 											<li><a href="#">Deep Drop Down 2</a></li>
@@ -79,3 +79,4 @@
 	</header>
 
 	<script src="/sections/header/nav-dropdowns.js"></script>
+	<script src="/sections/header/header.js"></script>

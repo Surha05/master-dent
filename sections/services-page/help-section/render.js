@@ -33,6 +33,30 @@
     });
 
     section.insertAdjacentHTML('afterbegin', fragment);
+
+    let linkTell = document.querySelector('.help-tell');
+    let data = {};
+
+    getDataTell();
+
+    function getDataTell() {
+      const url = '/API/contact/get.php';
+
+      fetch(url)
+        .then((res) => res.json())
+        .then((res) => {
+          data = res[0];
+          renderTell(data);
+        })
+        .catch((error) => {
+          alert('При загрузке секции Cta произошла ошибка');
+          console.log(error);
+        });
+    }
+
+    function renderTell({ phone }) {
+      linkTell.href = 'tel:' + phone;
+    }
   }
 
   function template({ id, title, description, button, photo } = {}) {
@@ -47,7 +71,7 @@
         <div class="text_section_text">
           <p>${description}</p>
         </div>
-        <div class="button text_section_button"><a href="#">${button}</a></div>
+        <div class="button text_section_button"><a class="help-tell" href="#">${button}</a></div>
       </div>
     </div>
     `;

@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* CSS Document */ 
+/* CSS Document */
 
 /******************************
 
@@ -253,6 +253,7 @@ section {
   font-weight: 500;
   color: #232323;
   word-break: break-word;
+  white-space: pre-line;
 }
 
 .section_title-features h2 {
@@ -589,7 +590,6 @@ section {
   color: #272727;
 }
 
-
 .main_nav .dropdown ul {
   display: block;
   position: absolute;
@@ -622,7 +622,6 @@ section {
   top: 100%;
   visibility: visible;
 }
-
 
 /*********************************
 5. Home
@@ -882,18 +881,17 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 0 20px;
 }
-.feature {
+/* .feature {
   width: calc((100% - 64px) / 3);
 
-}
+} */
 
 .feature-item {
   width: 100%;
   display: grid;
   align-items: stretch;
   grid-template-rows: 350px 1fr;
-  grid-template-rows: 350px 350px;
-
+  grid-template-rows: 300px 1fr;
 }
 .feature:not(:last-child) {
   margin-bottom: 30px;
@@ -903,10 +901,13 @@ section {
 }
 .feature_image img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
+  align-items: stretch;
 }
 .feature_content {
   width: 100%;
+  height: 100%;
   background: #ffffff;
   padding-left: 54px;
   padding-top: 63px;
@@ -942,6 +943,10 @@ section {
 }
 .text_section_text {
   margin-top: 34px;
+}
+
+.text_section_text p {
+  white-space: pre-line;
 }
 .text_section_button {
   margin-top: 52px;
