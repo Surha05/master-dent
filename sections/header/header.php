@@ -32,10 +32,18 @@
 								<ul class="main_nav-list">
 									<li class="main_nav-item"><a href="index.php">Главная</a></li>
 									<li class="main_nav-item"><a href="about.php">О нас</a></li>
-									<li class="main_nav-item"><a href="services.php">Услуги</a></li>
+									<li class="main_nav-item dropdown dropdown-services"><a href="services.php" class="js-link-services">Услуги</a>
+										<ul class="js-dropdown-services">
+											<!-- <li><a href="#">Deep Drop Down 1</a></li>
+											<li><a href="#">Deep Drop Down 2</a></li>
+											<li><a href="#">Deep Drop Down 3</a></li>
+											<li><a href="#">Deep Drop Down 4</a></li>
+											<li><a href="#">Deep Drop Down 5</a></li> -->
+										</ul>
+									</li>
 									<li class="main_nav-item"><a href="news.php">Новости</a></li>
 									<li class="main_nav-item dropdown"><a href="" class="js-link-doctors">Доктора</a>
-										<ul class="js-dropdown">
+										<ul class="js-dropdown-doctors">
 											<!-- <li><a href="#">Deep Drop Down 1</a></li>
 											<li><a href="#">Deep Drop Down 2</a></li>
 											<li><a href="#">Deep Drop Down 3</a></li>
@@ -77,6 +85,6 @@
 		</div>
 
 	</header>
-
-	<script src="/sections/header/nav-dropdowns.js"></script>
+	<script src="/sections/header/nav-services-dropdowns.js"></script>
+	<script src="/sections/header/nav-doctors-dropdowns.js"></script>
 	<script src="/sections/header/header.js"></script>

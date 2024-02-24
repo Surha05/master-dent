@@ -23,7 +23,7 @@
       });
   }
 
-  function render({ title, description, button, photo }) {
+  function render({ title, description, button, photo}) {
     backgroundBlock.style.backgroundImage = `url("/images/hero/${photo}")`;
     titleBlock.textContent = title;
     descBlock.textContent = description;

@@ -6,7 +6,7 @@
 					<div class="section_title section_title_light"><h2>Наши Услуги</h2></div>
 				</div>
 			</div>
-			<div class="row departments_row row-md-eq-height dept-content js-departments_row">
+			<div class="dept-content js-departments_row">
 				<!-- Department -->
 				<!-- <div class="col-lg-3 col-md-6 dept_col">
 					<div class="dept">
@@ -41,15 +41,11 @@
 				</div> -->
 
 				<!-- Department -->
-				<div class="col-lg-3 col-md-6 dept_col">
-					<div class="dept">
-						<div class="dept_text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dap ibus massa. Pellen tesque in luctus ex.</p>
-						</div>
-						<div class="button dept_button"><a href="/services.php">Все Услуги</a></div>
-					</div>
-				</div>
+
+
 			</div>
+			<div class="button dept_button"><a href="/services.php">Все Услуги</a></div>
+
 		</div>
 	</div>
 

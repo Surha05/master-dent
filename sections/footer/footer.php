@@ -18,7 +18,7 @@
 								</a>
 							</div>
 							<div class="footer_about_text">
-								<p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum.</p>
+								<!-- <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum.</p> -->
 							</div>
 							<ul class="footer_about_list">
 								<li><div class="footer_about_icon"><img src="images/phone-call.svg" alt=""></div><span><a id="footer_phone-1" href="tel:+79283782517">8 (928) 378-25-17</a></span></li>

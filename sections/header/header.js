@@ -23,11 +23,11 @@
     }
 
     function render({ phone, phone2, view_phone, view_phone2 }) {
-      tell.textContent = phone;
-      tell.href = 'tel:' + view_phone;
+      tell.textContent = view_phone;
+      tell.href = 'tel:' + phone;
 
-      tell2.textContent = phone2;
-      tell2.href = 'tel:' + view_phone2;
+      tell2.textContent = view_phone2;
+      tell2.href = 'tel:' + phone2;
 
     }
   })();

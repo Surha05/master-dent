@@ -11,11 +11,18 @@
     <ul class="menu_list menu_mm">
       <li class="menu_item menu_mm"><a href="index.php">Главная</a></li>
       <li class="menu_item menu_mm"><a href="about.php">О нас</a></li>
-      <li class="menu_item menu_mm"><a href="services.php">Услуги</a></li>
-      <li class="menu_item menu_mm"><a href="news.php">Новости</a></li>
+      <li class="menu_item main_nav-item dropdown dropdown-services"><a href="services.php">Услуги</a>
+				<ul class="js-dropdown-mobail-services">
+					<!-- <li><a href="#">Deep Drop Down 1</a></li>
+					<li><a href="#">Deep Drop Down 2</a></li>
+					<li><a href="#">Deep Drop Down 3</a></li>
+					<li><a href="#">Deep Drop Down 4</a></li>
+					<li><a href="#">Deep Drop Down 5</a></li> -->
+				</ul>
+			</li>      <li class="menu_item menu_mm"><a href="news.php">Новости</a></li>
       <li class="menu_item menu_mm"><a href="contact.php">Контакты</a></li>
       <li class="menu_item main_nav-item dropdown"><a href="news.php">Доктора</a>
-				<ul class="js-dropdown-mobail">
+				<ul class="js-dropdown-mobail-doctors">
 					<!-- <li><a href="#">Deep Drop Down 1</a></li>
 					<li><a href="#">Deep Drop Down 2</a></li>
 					<li><a href="#">Deep Drop Down 3</a></li>
@@ -36,4 +43,5 @@
 
 </div>
 
-<script src="/sections/menu-mob.js"></script>
+<script src="/sections/menu/menu-services-mob.js"></script>
+<script src="/sections/menu/menu-doctors-mob.js"></script>

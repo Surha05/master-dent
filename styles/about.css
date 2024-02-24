@@ -597,17 +597,24 @@ section {
   border-radius: 4px;
 }
 
+.menu_mm .dropdown ul li,
 .main_nav .dropdown ul li {
-  min-width: 200px;
+  width: 200px;
 }
 
+.menu_mm .dropdown-services ul li,
+.main_nav .dropdown-services ul li {
+  width: 250px;
+}
+.menu_mm .dropdown ul a,
 .main_nav .dropdown ul a {
-  padding: 10px 20px;
+  padding: 10px 5px;
+  /* padding: 10px 0; */
   font-size: 15px;
   text-transform: none;
   font-weight: 600;
 }
-
+.menu_mm .dropdown:hover > ul,
 .main_nav .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
@@ -754,10 +761,10 @@ section {
 
 .working_hours_list ul li p {
   font-size: 14px;
-  font-weight: 400; 
+  font-weight: 400;
   color: #ffffff;
   word-break: break-word;
-  white-space: pre-line
+  white-space: pre-line;
 }
 .working_hours_list ul li:not(:last-child) {
   margin-bottom: 15px;
@@ -888,6 +895,20 @@ section {
 .test_author_name span {
   color: #20d34a;
   font-style: italic;
+}
+
+.testimonials .swiper-pagination {
+  margin-top: 30px;
+  position: relative;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #20d34a;
 }
 
 /*********************************

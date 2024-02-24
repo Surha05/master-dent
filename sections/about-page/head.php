@@ -11,4 +11,6 @@
   <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
   <link rel="stylesheet" type="text/css" href="styles/about.css">
   <link rel="stylesheet" type="text/css" href="styles/about_responsive.css">
+  <link href="/swiper/swiper-bundle.min.css" rel="stylesheet">
+
 </head>
