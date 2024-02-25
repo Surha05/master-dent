@@ -11,6 +11,8 @@
   <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
   <link rel="stylesheet" type="text/css" href="styles/news.css">
   <link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
+  <link rel="stylesheet" type="text/css" href="/styles/services-single.css">
+
   <!-- <link rel="stylesheet" type="text/css" href="styles/elements.css"> -->
 
 </head>

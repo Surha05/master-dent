@@ -12,7 +12,7 @@
 	<!-- Header -->
 	<?php include 'sections/header/header.php'; ?>
 	<!-- Menu -->
-	<?php include 'sections/menu.php'; ?>
+	<?php include 'sections/menu/menu.php'; ?>
 	<!-- Home --> 
 	<!-- <?php include 'sections/news/home.php'; ?> -->
 
@@ -28,7 +28,7 @@
 <script src="styles/bootstrap4/bootstrap.min.js"></script>
 <script src="plugins/easing/easing.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="js/news.js"></script>
+<script src="js/single-doctor.js"></script>
 
 </body>
 </html>

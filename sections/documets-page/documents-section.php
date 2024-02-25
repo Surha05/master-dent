@@ -13,11 +13,9 @@
 
 										<div class="accordion_panel">
 											<div class="accordion_panel-content">
-												<ul>
-													<li>ewrwrwrewrewerwer</li>
-													<li>ewrwrwrewrewerwer</li>
-													<li>ewrwrwrewrewerwer</li>
-													<li>ewrwrwrewrewerwer</li>
+												<ul class="js-list-items">
+												<!-- <li id=${id}><a href="/docs/${photo}">${name}</a></li> -->
+													
 
 												</ul>
 										
@@ -95,4 +93,6 @@
 	</div>
 
 	<script src="/sections/news-page/render-services.js"></script>
+	<script src="/sections/documets-page/render.js"></script>
+
 	<script src="/sections/news-page/boxes-work.js"></script>

@@ -1,7 +1,7 @@
 (function () {
   const section = document.querySelector('.js-single-services');
   const parsedUrl = new URL(window.location.href);
-  const newId = parsedUrl.searchParams.get('id');
+  const linkHref = parsedUrl.searchParams.get('linkName');
   let linksServices = [];
 
   getData();
@@ -12,9 +12,10 @@
     fetch(url)
       .then((res) => res.json())
       .then((res) => {
-        if (newId) {
+        if (linkHref) {
           for (let item of res) {
-            if (newId == item.id) {
+            let linkName = item.category.replaceAll(' ', '');
+            if (linkHref == linkName) {
               linksServices.push({
                 id: item.id,
                 name: item.name,
@@ -42,22 +43,21 @@
   }
 
   function template({ id, name, price, category } = {}) {
-
     return `
     <div class="col-lg-8" id=${id}>
 					<div class="row">
 						<div class="col">
-							<div class="section_title"><h2>Accordions & Tabs</h2></div>
+							<div class="section_title"><h2>${category}</h2></div>
 						</div>
 					</div>
 
-					<div class="news_posts js-single-services">
+					<div class="news_posts">
 						<div class="accordion_container">
-								<div class="accordion d-flex flex-row align-items-center"><div>A great medical team to help your needs</div></div>
+								<div class="accordion d-flex flex-row align-items-center"><div>Услуги: ${category}</div></div>
 								<div class="accordion_panel">
 									<div class="accordion_panel-content">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellen tesque in luctus ex. Praesent luctus erat sit amet tortor aliquam bibendum.</p>
-										<p class="accordion_panel-price">200 руб.</p>
+										<p>${name}</p>
+										<p class="accordion_panel-price">${price} руб.</p>
 									</div>
 								</div>
 							</div>

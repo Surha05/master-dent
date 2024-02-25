@@ -709,7 +709,7 @@ section {
   white-space: nowrap;
 }
 .about_button {
-  margin-top: 129px;
+  margin-top: 80px;
   background: #20d34a;
 }
 .box {
@@ -898,7 +898,7 @@ section {
 }
 
 .testimonials .swiper-pagination {
-  margin-top: 30px;
+  margin-top: 50px;
   position: relative;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet {
