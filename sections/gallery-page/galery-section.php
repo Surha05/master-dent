@@ -1,4 +1,4 @@
-<div class="contact">
+<div class="contact gallery-section">
 		<div class="container">
 	
     <section id="gallery" class="gallery">

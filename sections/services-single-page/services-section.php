@@ -1,4 +1,4 @@
-<div class="news">
+<div class="news services-section">
 		<div class="container">
 			<div class="row services-single-container js-single-services">
 				

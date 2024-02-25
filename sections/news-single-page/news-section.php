@@ -1,4 +1,4 @@
-<div class="news">
+<div class="news news-single-section">
 		<div class="container">
 			<div class="row">
 				
