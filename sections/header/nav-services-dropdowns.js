@@ -11,7 +11,7 @@
 
     getData();
     function getData() {
-      const url = '/API/product/get.php';
+      const url = '/API/service/get.php';
       let listDoctors = [];
 
       fetch(url)
@@ -20,7 +20,7 @@
           for (let item of res) {
             listDoctors.push({
               id: item.id,
-              name: item.name,
+              name: item.category,
               post: item.post,
               photo: item.photo,
               description: item.description,

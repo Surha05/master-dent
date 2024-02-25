@@ -2,38 +2,26 @@
 		<div class="container">
 			<div class="row">
 				
-				<!-- News Posts -->
-				<div class="col-lg-8">
-					<div class="news_posts js-single-services">
-						
-						<!-- News Post -->
-						<!-- <div class="news_post">
-							<div class="news_image">
-								<img src="images/news_1.jpg" alt="">
-								<div class="news_date d-flex flex-column align-items-center justify-content-center">
-										<div class="news_day">15</div>
-										<div class="news_month">March</div>
-								</div>
-							</div>
-							<div class="news_body">
-								<div class="news_title"><a href="#">10 Reasons to make a check up</a></div>
-								
-								<div class="news_text">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semp er solli citudin. Aliquam nec dapibus massa.</p>
-								</div>
-								<div class="news_link"><a href="#">Перейти</a></div>
-							</div>
-						</div> -->
-
+			<div class="single-services-wrapper row js-single-services">
+				<!-- <div class="col-lg-8">
+					<div class="row">
+						<div class="col">
+							<div class="section_title"><h2>Accordions & Tabs</h2></div>
+						</div>
 					</div>
-					<!-- <div class="news_page_nav">
-						<ul>
-							<li class="active"><a href="#">01.</a></li>
-							<li><a href="#">02.</a></li>
-							<li><a href="#">03.</a></li>
-						</ul>
-					</div> -->
-				</div>
+
+					<div class="news_posts js-single-services">
+						<div class="accordion_container">
+								<div class="accordion d-flex flex-row align-items-center"><div>A great medical team to help your needs</div></div>
+								<div class="accordion_panel">
+									<div class="accordion_panel-content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellen tesque in luctus ex. Praesent luctus erat sit amet tortor aliquam bibendum.</p>
+										<p class="accordion_panel-price">200 руб.</p>
+									</div>
+								</div>
+							</div>
+					</div>	
+				</div> -->
 
 				<!-- Sidebar -->
 				<div class="col-lg-4">
@@ -118,6 +106,7 @@
 						</div> -->
 					</div>
 				</div>
+			</div>
 			</div>
 		</div>
 	</div>

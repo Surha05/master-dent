@@ -2,7 +2,7 @@
   const section = document.querySelector('.js-single-services');
   const parsedUrl = new URL(window.location.href);
   const newId = parsedUrl.searchParams.get('id');
-  let linkNews = [];
+  let linksServices = [];
 
   getData();
 
@@ -15,18 +15,16 @@
         if (newId) {
           for (let item of res) {
             if (newId == item.id) {
-              linkNews.push({
+              linksServices.push({
                 id: item.id,
                 name: item.name,
-                photo: item.photo,
-                description: item.description,
-                create_date: +item.create_date,
+                price: item.price,
+                category: item.category,
               });
             }
           }
         }
-        console.log(linkNews);
-        render(linkNews);
+        render(linksServices);
       })
       .catch((error) => {
         console.log(error);
@@ -43,28 +41,28 @@
     section.insertAdjacentHTML('afterbegin', fragment);
   }
 
-  function template({ id, name, photo, description, create_date } = {}) {
-    let date = new Date(create_date);
-    let day = date.getDate();
-    let month = date.getMonth() + 1;
-    let year = date.getFullYear();
+  function template({ id, name, price, category } = {}) {
 
     return `
-      <div class="news_post" id${id}>
-        <div class="news_image">
-          <img src="/images/new/${photo}" alt="">
-          <div class="news_date d-flex flex-column align-items-center justify-content-center">
-              <div class="news_month">${day}.${month}.${year}</div>
-          </div>
-        </div>
-        <div class="news_body">
-          <div class="news_title"><a href="#">${name}</a></div>
-          
-          <div class="news_text">
-            <p>${description}.</p>
-          </div>
-        </div>
-      </div>
+    <div class="col-lg-8" id=${id}>
+					<div class="row">
+						<div class="col">
+							<div class="section_title"><h2>Accordions & Tabs</h2></div>
+						</div>
+					</div>
+
+					<div class="news_posts js-single-services">
+						<div class="accordion_container">
+								<div class="accordion d-flex flex-row align-items-center"><div>A great medical team to help your needs</div></div>
+								<div class="accordion_panel">
+									<div class="accordion_panel-content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellen tesque in luctus ex. Praesent luctus erat sit amet tortor aliquam bibendum.</p>
+										<p class="accordion_panel-price">200 руб.</p>
+									</div>
+								</div>
+							</div>
+					</div>	
+				</div>
     `;
   }
 })();

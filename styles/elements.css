@@ -861,6 +861,15 @@ section
 {
 	padding-top: 35px;
 }
+
+.accordion_panel-content {
+	display: flex;
+	justify-content: space-between;
+	gap: 0 30px;
+}
+.accordion_panel-price {
+	white-space: nowrap;
+}
 .tabs
 {
 	
