@@ -50,6 +50,12 @@
          </a>
       </li>
       <li class="nav-item">
+         <a class="nav-link <?php if($page_title !== 'Документы') echo 'collapsed'; ?>" href="/admin/pages/docs/">
+            <i class="bi bi-card-list"></i>
+            <span>Документы</span>
+         </a>
+      </li>
+      <li class="nav-item">
          <a class="nav-link <?php if($page_title !== 'Настройки') echo 'collapsed'; ?>" href="/admin/pages/settings/">
             <i class="bi bi-card-list"></i>
             <span>Настройки</span>
