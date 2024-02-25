@@ -606,6 +606,11 @@ section {
   width: 200px;
 }
 
+.menu_mm .dropdown-about ul li,
+.main_nav .dropdown-about ul li {
+  width: 250px;
+}
+
 .menu_mm .dropdown-services ul li,
 .main_nav .dropdown-services ul li {
   width: 250px;

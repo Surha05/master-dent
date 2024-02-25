@@ -943,12 +943,16 @@ section {
   font-size: 18px;
   font-weight: 500;
   color: #232323;
+  word-break: break-word;
+  white-space: pre-line;
 }
 .team_member_title {
   font-size: 15px;
   font-weight: 400;
   color: #696969;
   margin-top: 9px;
+  word-break: break-word;
+  white-space: pre-line;
 }
 
 .team_member_desc {
@@ -956,6 +960,8 @@ section {
   font-weight: 400;
   color: #323030;
   margin-top: 9px;
+  word-break: break-word;
+  white-space: pre-line;
 }
 
 /*********************************

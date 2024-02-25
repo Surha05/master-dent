@@ -1,5 +1,5 @@
 <head>
-  <title>Услуги</title>
+  <title>Галерея</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="CareMed demo project">
@@ -9,8 +9,9 @@
   <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
   <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
   <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-  <link rel="stylesheet" type="text/css" href="styles/news.css">
-  <link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
-  <!-- <link rel="stylesheet" type="text/css" href="styles/elements.css"> -->
-
+  <link rel="stylesheet" type="text/css" href="styles/contact.css">
+  <link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+  <link rel="stylesheet" type="text/css" href="styles/gallery.css">
+  <link href="glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="swiper/swiper-bundle.min.css" rel="stylesheet">
 </head>
