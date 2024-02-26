@@ -56,6 +56,12 @@
          </a>
       </li>
       <li class="nav-item">
+         <a class="nav-link <?php if($page_title !== 'Лицензии') echo 'collapsed'; ?>" href="/admin/pages/license/">
+            <i class="bi bi-card-list"></i>
+            <span>Лицензии</span>
+         </a>
+      </li>
+      <li class="nav-item">
          <a class="nav-link <?php if($page_title !== 'Настройки') echo 'collapsed'; ?>" href="/admin/pages/settings/">
             <i class="bi bi-card-list"></i>
             <span>Настройки</span>
