@@ -62,6 +62,12 @@
          </a>
       </li>
       <li class="nav-item">
+         <a class="nav-link <?php if($page_title !== 'Галерея') echo 'collapsed'; ?>" href="/admin/pages/galery/">
+            <i class="bi bi-card-list"></i>
+            <span>Галерея</span>
+         </a>
+      </li>
+      <li class="nav-item">
          <a class="nav-link <?php if($page_title !== 'Настройки') echo 'collapsed'; ?>" href="/admin/pages/settings/">
             <i class="bi bi-card-list"></i>
             <span>Настройки</span>

@@ -342,3 +342,63 @@
   cursor: pointer;
   color: rgb(25, 135, 84);
 }
+.photo-galery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.photo-item {
+  height: 150px;
+  position: relative;
+}
+.photo-item::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.photo-item:hover::before {
+  background: rgba(0, 0, 0, 0.1);
+}
+.photo-img {
+  height: 100%;
+  display: block;
+  border-radius: 10px;
+}
+.photo-del {
+  position: absolute;
+  right: -6px;
+  top: -6px;
+  background: red;
+  width: 26px;
+  height: 26px;
+  border-radius: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.photo-del::before {
+  content: '';
+  width: 16px;
+  border-bottom: 2px solid #fff;
+  transform: rotate(45deg);
+  position: absolute;
+}
+.photo-del::after {
+  content: '';
+  width: 16px;
+  border-bottom: 2px solid #fff;
+  transform: rotate(-45deg);
+  position: absolute;
+}
+.photo-item:hover .photo-del {
+  display: flex;
+}
