@@ -53,6 +53,10 @@
                 <label for="clock-work" class="form-label">Часы работы</label>
                 <textarea id="clock-work" class="form-control"></textarea>
               </div>
+              <div class="mb-2">
+                <label for="contact-img" class="form-label">Фото на стр. Контакты</label>
+                <input class="form-control" type="file" id="contact-img">
+              </div>
             </div>
           </form>
         </div>

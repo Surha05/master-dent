@@ -8,6 +8,7 @@
   const inpInsta = document.querySelector('#insta');
   const inpMail = document.querySelector('#mail');
   const inpClock = document.querySelector('#clock-work');
+  const contactImg = document.querySelector('#contact-img');
   const btnSubmit = document.querySelector('#contact-submit');
   let data = {};
 
@@ -26,6 +27,7 @@
     let insta = inpInsta.value;
     let mail = inpMail.value;
     let clock = inpClock.value;
+    let img = contactImg.files[0];
 
     const url = '/API/contact/update.php';
     const formData = new FormData();
@@ -38,6 +40,7 @@
     formData.append('insta', insta);
     formData.append('mail', mail);
     formData.append('clock', clock);
+    formData.append('img', img);
 
     fetch(url, {
       method: 'POST',
