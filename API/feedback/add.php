@@ -5,13 +5,15 @@ include '../connect.php';
 $name = $_POST['name'];
 $description = $_POST['description'];
 $photo = 'default.png';
+$moder = 'false';
+if($_POST['moder']) $moder = $_POST['moder'];
 
 if (isset($_FILES['photo'])) {
 	make_upload($_FILES['photo']);
 }
 
 if ($connection) {
-	mysqli_query($connection, "INSERT INTO `feedback` (`id`, `name`, `photo`, `description`, `moder`) VALUES (NULL, '$name', '$photo', '$description', 'true');");
+	mysqli_query($connection, "INSERT INTO `feedback` (`id`, `name`, `photo`, `description`, `moder`) VALUES (NULL, '$name', '$photo', '$description', '$moder');");
 }
 
 function make_upload($file)

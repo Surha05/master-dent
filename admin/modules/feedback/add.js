@@ -28,6 +28,7 @@
     form_data.append('name', inpName.value);
     if(inpPhoto.files[0]) form_data.append('photo', inpPhoto.files[0]);
     form_data.append('description', inpDesc.value);
+    form_data.append('moder', 'true');
 
     fetch(url, {
       method: 'POST',

@@ -1169,3 +1169,89 @@ section {
 .footer_social ul li a i:hover {
   color: #ffffff;
 }
+
+/* =============================== */
+/*   Модалка добавления отзывов    */
+/* =============================== */
+
+.tes-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  display: none;
+}
+.tes-modal__container {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  padding: 20px;
+  border: 2px solid #20d34a;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tes-modal__input,
+.tes-modal__textarea {
+  display: block;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #20d34a;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.tes-modal__textarea {
+  padding-bottom: 0;
+}
+#tes-input-file {
+  display: none;
+}
+.tes-modal__label,
+.tes-modal__btn {
+  border: 2px solid #20d34a;
+  padding: 10px 30px;
+  background: none;
+  margin: 0;
+  cursor: pointer;
+}
+.tes-modal__btn {
+  background: #20d34a;
+  color: #fff;
+}
+.tes-modal__close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid red;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.tes-modal__close::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 20px;
+  border-bottom: 2px solid red;
+  transform: rotate(-45deg);
+}
+.tes-modal__close::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 20px;
+  border-bottom: 2px solid red;
+  transform: rotate(45deg);
+}
