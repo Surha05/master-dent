@@ -1,5 +1,6 @@
 (function(){
    const section = document.querySelector('#feedback-section .admin-list');
+   const sectionModer = document.querySelector('#feedback-section .admin-list-moder');
    const modal = document.querySelector('#edit-feedback-modal');
    const btnSend = modal.querySelector('#btn-edit');
    const inpName = modal.querySelector('#inp-name');
@@ -8,6 +9,7 @@
    let id;
 
    section.addEventListener('click', edit);
+   sectionModer.addEventListener('click', edit);
    btnSend.addEventListener('click', send);
 
    function edit(e) {

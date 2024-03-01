@@ -6,17 +6,18 @@
 
             <div class="card-body pb-0">
                <div class="header-card-body">
-                  
+
                   <div class="header-left-card-block">
                      <h5 class="card-title" id="add-btn" data-bs-toggle="modal" data-bs-target="#add-feedback-modal">+ Добавить отзыв</h5>
                   </div>
-                  
+
                </div>
-               
+
 
                <div class="flex w100 fw-bold mb-10 p-5">
                   <div class="w-100">Фото</div>
-                  <div class="w-300">Имя</div>
+                  <div class="w-200">Имя</div>
+                  <div class="">Отзыв</div>
                   <div class="ml-auto">Редакт.</div>
                </div>
                <div class="admin-list mb20">
@@ -31,25 +32,38 @@
                      </div>
                   </div> -->
                </div>
-               <nav>
-                  <ul class="pagination justify-content-center">
-                     <li class="page-item disabled prev">
-                        Пред.
-                     </li>
-                     <li class="page-item active">
-                        <a class="page-link" href="#">1</a>
-                     </li>
-                     <li class="page-item">
-                        <a class="page-link" href="#">2</a>
-                     </li>
-                     <li class="page-item">
-                        <a class="page-link" href="#">3</a>
-                     </li>
-                     <li class="page-item next">
-                        <a class="page-link" href="#">След.</a>
-                     </li>
-                  </ul>
-               </nav>
+
+            </div>
+
+         </div>
+      </div>
+
+   </div>
+   <div class="row">
+
+      <div class="col-12">
+         <div class="card top-selling overflow-auto">
+
+            <div class="card-body pb-0">
+               <div class="header-card-body">
+
+                  <div class="header-left-card-block">
+                     <h5 class="card-title">Отзывы на модерации</h5>
+                  </div>
+
+               </div>
+
+
+               <div class="flex w100 fw-bold mb-10 p-5">
+                  <div class="w-100">Фото</div>
+                  <div class="w-200">Имя</div>
+                  <div class="">Отзыв</div>
+                  <div class="ml-auto">Редакт.</div>
+               </div>
+               <div class="admin-list-moder mb20">
+
+               </div>
+
             </div>
 
          </div>
@@ -57,7 +71,7 @@
 
    </div>
 </section>
-<?php 
+<?php
 include '../../modules/feedback/add-modal.php';
 include '../../modules/feedback/edit-modal.php';
 ?>
