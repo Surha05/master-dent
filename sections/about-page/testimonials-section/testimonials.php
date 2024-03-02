@@ -1,5 +1,5 @@
 <div class="testimonials">
-	<div class="testimonials_background parallax-window" data-parallax="scroll" data-image-src="images/testimonials.jpg" data-speed="0.8"></div>
+	<div class="testimonials_background" style="background-image: url('/images/testimonials.jpg')" data-speed="0.8"></div>
 	<div class="container">
 		<div class="row">
 			<div class="col">

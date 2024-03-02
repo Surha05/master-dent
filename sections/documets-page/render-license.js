@@ -1,34 +1,35 @@
 (function () {
-  const section = document.querySelector('.js-list-items');
-  let listDocuments = [];
+  const section = document.querySelector('.js-list-licenses');
+  let listLicenses = [];
 
   getData();
   function getData() {
-    const url = '/API/docs/get.php';
+    const url = '/API/license/get.php';
 
     fetch(url)
       .then((res) => res.json())
       .then((res) => {
         for (let item of res) {
-          listDocuments.push({
+          listLicenses.push({
             id: item.id,
             name: item.name,
             photo: item.photo,
           });
         }
-        listDocuments.reverse();
+        listLicenses.reverse();
+        console.log(listLicenses);
 
-        render(listDocuments);
+        render(listLicenses);
       })
       .catch((error) => {
         console.log(error);
       });
   }
 
-  function render(listDocuments) {
+  function render(listLicenses) {
     let fragment = '';
-    for (let i = 0; i < listDocuments.length; i++) {
-      const li = template(listDocuments[i]);
+    for (let i = 0; i < listLicenses.length; i++) {
+      const li = template(listLicenses[i]);
       fragment += li;
     }
 
@@ -37,7 +38,7 @@
 
   function template({ id, name, photo } = {}) {
     return `
-    <li id=${id}><a href="/docs/${photo}">${name}</a></li>
+    <li id=${id}><a href="/docs/${photo}" target="_blank">${name}</a></li>
 
     `;
   }

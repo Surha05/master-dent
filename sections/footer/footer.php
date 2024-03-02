@@ -92,10 +92,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Вс�
 							<div class="footer_social ml-lg-auto">
 								<ul>
 									<li><a id="footer-whatsapp" href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-									<li><a id="footer-instagram"  href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+									<li><a id="footer-instagram"  href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 									<li><a id="footer-envelope" href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 								</ul>
-							</div>
+							</div> 
 						</div>
 					</div>
 				</div>

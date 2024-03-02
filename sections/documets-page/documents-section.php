@@ -7,13 +7,13 @@
 						<div class="col-lg-10">
 							<div class="news_posts">
 								<div class="accordion_container">
-									<div class="accordion d-flex flex-row align-items-center">
+									<div class="accordion d-flex flex-row align-items-center active">
 										<div>Документы</div>
 									</div>
 
 										<div class="accordion_panel">
 											<div class="accordion_panel-content">
-												<ul class="js-list-items">
+												<ul class="js-list-documents">
 												<!-- <li id=${id}><a href="/docs/${photo}">${name}</a></li> -->
 													
 
@@ -30,14 +30,18 @@
 						<div class="col-lg-10">
 							<div class="news_posts">
 								<div class="accordion_container">
-									<div class="accordion d-flex flex-row align-items-center">
+									<div class="accordion d-flex flex-row align-items-center active">
 										<div>Лицензия</div>
 									</div>
 									
-										<div class="accordion_panel">
+									<div class="accordion_panel">
 											<div class="accordion_panel-content">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellen tesque in luctus ex. Praesent luctus erat sit amet tortor aliquam bibendum.</p>
-												<p class="accordion_panel-price">200 руб.</p>
+												<ul class="js-list-licenses">
+												<!-- <li id=${id}><a href="/docs/${photo}">${name}</a></li> -->
+													
+
+												</ul>
+										
 											</div>
 										</div>
 									</div>
@@ -93,6 +97,7 @@
 	</div>
 
 	<script src="/sections/news-page/render-services.js"></script>
-	<script src="/sections/documets-page/render.js"></script>
+	<script src="/sections/documets-page/render-documents.js"></script>
+	<script src="/sections/documets-page/render-license.js"></script>
 
 	<script src="/sections/news-page/boxes-work.js"></script>

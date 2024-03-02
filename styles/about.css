@@ -580,7 +580,7 @@ section {
   font-size: 13px;
   color: #272727;
 }
-
+.menu_mm .dropdown ul, 
 .main_nav .dropdown ul {
   display: block;
   position: absolute;
@@ -596,10 +596,14 @@ section {
   transition: 0.3s;
   border-radius: 4px;
 }
-
 .menu_mm .dropdown ul li,
 .main_nav .dropdown ul li {
   width: 200px;
+}
+
+.menu_mm .dropdown-about ul li,
+.main_nav .dropdown-about ul li {
+  width: 250px;
 }
 
 .menu_mm .dropdown-services ul li,
@@ -682,9 +686,28 @@ section {
   padding-top: 96px;
   padding-bottom: 94px;
 }
+
+.section_title h2 {
+  word-break: break-word;
+  white-space: pre-line;
+}
 .about_text {
   margin-top: 26px;
   padding-right: 95px;
+  margin-bottom: 50px;
+}
+
+.about_text p {
+  word-break: break-word;
+  white-space: pre-line;
+}
+
+.about_img_box {
+  width: 100%;
+}
+
+.about_img_box img {
+  max-width: 100%;
 }
 .loaders_container {
   margin-top: 85px;
@@ -851,6 +874,8 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .test_row {
   margin-top: 57px;
@@ -870,6 +895,9 @@ section {
   font-style: italic;
   margin-top: 34px;
   line-height: 1.77;
+  word-spacing: pre-line;
+  word-break: break-word;
+
 }
 .test_author {
   margin-top: 46px;
@@ -881,7 +909,8 @@ section {
   overflow: hidden;
 }
 .test_author_image div img {
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
 }
 .test_author_name {
   padding-left: 20px;
@@ -891,6 +920,9 @@ section {
   font-weight: 400;
   color: #ffffff;
   font-style: italic;
+  word-spacing: pre-line;
+  word-break: break-word;
+
 }
 .test_author_name span {
   color: #20d34a;

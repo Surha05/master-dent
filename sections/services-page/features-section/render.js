@@ -10,9 +10,11 @@
       .then((res) => res.json())
       .then((res) => {
         for (let item of res) {
+          let linkName = item.name.replaceAll(' ', '');
           listProduct.push({
             id: item.id,
             name: item.name,
+            linkName: linkName,
             photo: item.photo,
             full_description: item.full_description,
           });
@@ -25,6 +27,7 @@
         console.log(error);
       });
   }
+  // <a href="/single-services.php?linkName=${linkName}">
 
   function render(listProduct) {
     let fragment = '';
@@ -34,11 +37,11 @@
     }
 
     section.insertAdjacentHTML('afterbegin', fragment);
-  }  
+  }
 
-  function template({ id, name, photo, full_description } = {}) {
+  function template({ id, name, photo, full_description, linkName } = {}) {
     return `
-    <div class="feature-item" id=${id}>
+    <a href="/single-services.php?linkName=${linkName}" class="feature-item" id=${id}>
       <div class="feature_image"><img src="/images/product/${photo}" alt=""></div>
       <div class="feature_content">
         <div class="section_title"><h2>${name}</h2></div>
@@ -46,7 +49,8 @@
           <p>${full_description}</p>
         </div>
       </div>
-    </div>
+      
+    </a>
     `;
   }
 })();

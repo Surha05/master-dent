@@ -1,5 +1,5 @@
 (function () {
-  const galleryLightbox = GLightbox({
-    selector: '.gallery-lightbox'
-  });
+  // const galleryLightbox = GLightbox({
+  //   selector: '.gallery-lightbox'
+  // });
 })();

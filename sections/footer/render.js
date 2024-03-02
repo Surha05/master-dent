@@ -10,9 +10,11 @@
       .then((res) => res.json())
       .then((res) => {
         for (let item of res) {
+          let linkName = item.name.replaceAll(' ', '');
           listProduct.push({
             id: item.id,
             name: item.name,
+            linkName: linkName,
             photo: item.photo,
             full_description: item.full_description,
           });
@@ -36,9 +38,9 @@
     section.insertAdjacentHTML('afterbegin', fragment);
   }
 
-  function template({ id, name, photo, full_description } = {}) {
+  function template({ id, name, linkName} = {}) {
     return `
-    <li id=${id}><a href="#">${name}</a></li>
+    <li id=${id}><a href="/single-services.php?linkName=${linkName}">${name}</a></li>
 
     `;
   }

@@ -31,7 +31,7 @@
 				<div class="col-lg-6">
 					<div class="section_title"><h2>Наши Контакты</h2></div>
 					<div class="contact_text">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa.</p>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa.</p> -->
 					</div>
 					<ul class="contact_about_list">
 						<li><div class="contact_about_icon"><img src="images/phone-call.svg" alt=""></div><span><a id="contact_phone-1" href="tel:+79283782517">8 (928) 378-25-17</a> </span></li>
@@ -43,7 +43,7 @@
 
 				<!-- Contact Form -->
 				<div class="col-lg-6 contact-banner">
-						<img src="/images/about.jpg" alt="">
+						<img src="/images/about.jpg" alt="" id="js_contact_img">
 				</div>
 				</div>
 			</div>

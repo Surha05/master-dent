@@ -10,7 +10,13 @@
   <div class="menu menu_mm">
     <ul class="menu_list menu_mm">
       <li class="menu_item menu_mm"><a href="index.php">Главная</a></li>
-      <li class="menu_item menu_mm"><a href="about.php">О нас</a></li>
+			<li class="menu_item main_nav-item dropdown dropdown-about"><a href="about.php" class="js-link-about">О нас</a>
+				<ul class="js-dropdown-about">
+					<li><a href="gallery.php">Галерея</a></li>
+					<li><a href="documents.php">Документы</a></li>
+				</ul>
+			</li>
+
       <li class="menu_item main_nav-item dropdown dropdown-services"><a href="services.php">Услуги</a>
 				<ul class="js-dropdown-mobail-services">
 					<!-- <li><a href="#">Deep Drop Down 1</a></li>

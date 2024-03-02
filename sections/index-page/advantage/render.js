@@ -43,7 +43,6 @@
   function template({ id, name, photo, description } = {}) {
     return `
       <div class="services-item" id=${id}, >
-        <a href="/services.php" class="server-link">
           <div class="service text-center trans_200">
             <div class="service_icon">
               <img class="" src="/images/advantage/${photo}" alt="">
@@ -53,7 +52,6 @@
               <p>${description}.</p>
             </div>
           </div>
-        </a>
       </div>
     `;
   }

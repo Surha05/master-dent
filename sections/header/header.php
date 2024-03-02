@@ -29,7 +29,7 @@
 					<div class="col">
 						<div class="header_content d-flex flex-row align-items-center justify-content-start">
 							<nav class="main_nav ml-auto">
-								<ul class="main_nav-list">
+								<ul class="main_nav-list"> 
 									<li class="main_nav-item"><a href="index.php">Главная</a></li>
 									<li class="main_nav-item dropdown dropdown-about"><a href="about.php" class="js-link-about">О нас</a>
 										<ul class="js-dropdown-about">

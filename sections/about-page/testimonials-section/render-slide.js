@@ -45,7 +45,7 @@
           <div class="test_text">${description}.</div>
           <div class="test_author d-flex flex-row align-items-center justify-content-start">
             <div class="test_author_image"><div><img src="images/feedback/${photo}" alt=""></div></div>
-            <div class="test_author_name"><a href="#">${name}</a>, <span>Patient</span></div>
+            <div class="test_author_name"><a href="#">${name}</a></div>
           </div>
         </div>
       </div>

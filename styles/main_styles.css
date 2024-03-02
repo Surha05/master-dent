@@ -585,7 +585,7 @@ section {
   font-size: 13px;
   color: #272727;
 }
-.menu_mm .dropdown ul,
+.menu_mm .dropdown ul, 
 .main_nav .dropdown ul {
   display: block;
   position: absolute;
@@ -915,6 +915,7 @@ section {
 .dep-item {
   display: grid;
   align-items: stretch;
+  position: relative;
 }
 .dept_image {
   width: 100%;
@@ -971,6 +972,15 @@ section {
 .dept_button a {
   color: #272727;
 }
+
+/* .dep-item a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
 
 @media (max-width: 1200px) {
   .dept_image {
@@ -1045,13 +1055,15 @@ section {
   gap: 30px 20px;
 }
 
-.server-link {
+/* .server-link {
   background: #f5f7fa;
-}
+} */
 
 .services-item {
   display: grid;
   align-items: stretch;
+  background: #f5f7fa;
+
 }
 .service_col {
   margin-bottom: 30px;

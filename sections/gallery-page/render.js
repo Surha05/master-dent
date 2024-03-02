@@ -1,9 +1,9 @@
 (function () {
-  const section = document.querySelector('.js-dropdown-mobail-doctors');
+  const section = document.querySelector('.js-section');
 
   getData();
   function getData() {
-    const url = '/API/doctor/get.php';
+    const url = '/API/galery/get.php';
     let listDoctors = [];
 
     fetch(url)
@@ -12,11 +12,7 @@
         for (let item of res) {
           listDoctors.push({
             id: item.id,
-            name: item.name,
-            post: item.post,
             photo: item.photo,
-            description: item.description,
-            full_description: item.full_description,
           });
         }
 
@@ -36,12 +32,22 @@
     });
 
     section.insertAdjacentHTML('afterbegin', fragment);
+    
+    // GLightbox
+    const galleryLightbox = GLightbox({
+      selector: '.gallery-lightbox'
+    });
   }
 
-  function template({ id, name, post, photo, description } = {}) {
+  function template({ id, photo } = {}) {
     return `
-      <li id=${id}><a href="/single-doctor.php?id=${id}">${name}</a></li>
-  
-      `;
+        <div class="" id=${id}>
+          <div class="gallery-item">
+            <a href="/images/galery/${photo}" class="gallery-lightbox" data-gall="gallery-item">
+              <img src="/images/galery/${photo}" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>    
+        `;
   }
 })();

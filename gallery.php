@@ -12,7 +12,7 @@
 	<!-- Header -->
 	<?php include 'sections/header/header.php'; ?>
 	<!-- Menu -->
-	<?php include 'sections/menu.php'; ?>
+	<?php include 'sections/menu/menu.php'; ?>
 	<!-- Contact -->
 	<?php include 'sections/gallery-page/galery-section.php'; ?>
 	<!-- Footer -->

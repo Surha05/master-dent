@@ -580,7 +580,7 @@ section {
   color: #272727;
 }
 
-
+.menu_mm .dropdown ul, 
 .main_nav .dropdown ul {
   display: block;
   position: absolute;
@@ -596,10 +596,14 @@ section {
   transition: 0.3s;
   border-radius: 4px;
 }
-
 .menu_mm .dropdown ul li,
 .main_nav .dropdown ul li {
   width: 200px;
+}
+
+.menu_mm .dropdown-about ul li,
+.main_nav .dropdown-about ul li {
+  width: 250px;
 }
 
 .menu_mm .dropdown-services ul li,

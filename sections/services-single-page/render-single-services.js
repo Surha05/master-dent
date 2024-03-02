@@ -44,16 +44,16 @@
 
   function template({ id, name, price, category } = {}) {
     return `
-    <div class="col-lg-8" id=${id}>
+    <div class="col-lg-10" id=${id}>
 					<div class="row">
 						<div class="col">
 							<div class="section_title"><h2>${category}</h2></div>
 						</div>
-					</div>
+					</div> 
 
 					<div class="news_posts">
 						<div class="accordion_container">
-								<div class="accordion d-flex flex-row align-items-center"><div>Услуги: ${category}</div></div>
+								<div class="accordion d-flex flex-row align-items-center active"><div>Услуги: ${category}</div></div>
 								<div class="accordion_panel">
 									<div class="accordion_panel-content">
 										<p>${name}</p>

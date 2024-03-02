@@ -156,7 +156,7 @@ $(document).ready(function()
 					} 
 				}
 
-				acc.on('click', function()
+				acc.on('click', function() 
 				{
 					if(acc.hasClass('active'))
 					{

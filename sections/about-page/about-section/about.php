@@ -4,13 +4,19 @@
 
 				<!-- About Content -->
 				<div class="col-lg-8">
-					<div class="section_title"><h2>О клинике Мастер-Дент</h2></div>
-					<div class="about_text">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellen tesque in luctus ex. Praesent luctus erat sit amet tortor aliquam bibendum. Nulla ut molestie augue, scelerisque consectetur quam. Dolor sit amet, consectetur adipiscing elit. Cura bitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellentesque in luctus ex.</p>
-						<p>Praesent luctus erat sit amet tortor aliquam bibendum. Nulla ut molestie augue, scelerisque consectetur quam. Dolor sit amet, consectetur adipiscing elit. Cura bitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellentesque in luctus ex.</p>
+					<div class="section_title">
+						<h2 id="js_about_title">О клинике Мастер-Дент</h2>
 					</div>
-				
+					<div class="about_text">
+						<p id="js_about_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellen tesque in luctus ex. Praesent luctus erat sit amet tortor aliquam bibendum. Nulla ut molestie augue, scelerisque consectetur quam. Dolor sit amet, consectetur adipiscing elit. Cura bitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellentesque in luctus ex.</p>
+					</div>
+
+					<div class="about_img_box">
+						<img src="/images/testimonials.jpg" alt="" id="js_about_img">
 				</div>
+				</div>
+
+				
 
 				<!-- Boxes -->
 				<div class="col-lg-4 boxes_col">
@@ -70,5 +76,5 @@
 			</div>
 		</div>
 	</div>
-
+	<script src="/sections/about-page/about-section/render-content.js"></script>
 	<script src="/sections/about-page/about-section/boxes-work.js"></script>
