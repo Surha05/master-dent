@@ -1,5 +1,5 @@
 <head>
-  <title>Contact</title>
+  <title>Контакты Мастер Дент</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="CareMed demo project">
