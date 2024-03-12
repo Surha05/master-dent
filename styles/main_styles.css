@@ -523,6 +523,13 @@ section {
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
 }
+
+.menu_item a .fa-chevron-down {
+  position: relative;
+  top: -5px;
+  font-size: 20px; 
+}
+
 .menu_item a:hover {
   color: #ffb606;
 }
@@ -585,7 +592,7 @@ section {
   font-size: 13px;
   color: #272727;
 }
-.menu_mm .dropdown ul, 
+.menu_mm .dropdown ul,
 .main_nav .dropdown ul {
   display: block;
   position: absolute;
@@ -623,12 +630,24 @@ section {
   text-transform: none;
   font-weight: 600;
 }
+
+
 .menu_mm .dropdown:hover > ul,
 .main_nav .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
 }
+
+@media (max-width: 576px) {
+  .menu_item a .fa-chevron-down {
+    position: relative;
+    top: -5px;
+    font-size: 10px; 
+  }
+}
+
+
 
 /*********************************
 5. Home
@@ -1063,7 +1082,6 @@ section {
   display: grid;
   align-items: stretch;
   background: #f5f7fa;
-
 }
 .service_col {
   margin-bottom: 30px;

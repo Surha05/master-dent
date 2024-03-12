@@ -29,7 +29,6 @@
               full_description: item.full_description,
             });
           }
-          console.log(listDoctors);
           render(listDoctors);
         })
         .catch((error) => {

@@ -518,6 +518,13 @@ section {
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
 }
+
+.menu_item a .fa-chevron-down {
+  position: relative;
+  top: -5px;
+  font-size: 20px; 
+}
+
 .menu_item a:hover {
   color: #ffb606;
 }
@@ -580,7 +587,7 @@ section {
   font-size: 13px;
   color: #272727;
 }
-.menu_mm .dropdown ul, 
+.menu_mm .dropdown ul,
 .main_nav .dropdown ul {
   display: block;
   position: absolute;
@@ -624,6 +631,14 @@ section {
   top: 100%;
   visibility: visible;
 }
+
+@media (max-width: 576px) {
+  .menu_item a .fa-chevron-down {
+    position: relative;
+    top: -5px;
+    font-size: 10px; 
+  }
+} 
 
 /*********************************
 5. Home
@@ -859,6 +874,12 @@ section {
   color: #ffffff;
 }
 
+@media (max-width: 1024px) {
+  .about {
+    margin-top: 60px;
+  }
+}
+
 /*********************************
 7. Testimonials
 *********************************/
@@ -897,7 +918,6 @@ section {
   line-height: 1.77;
   word-spacing: pre-line;
   word-break: break-word;
-
 }
 .test_author {
   margin-top: 46px;
@@ -922,7 +942,6 @@ section {
   font-style: italic;
   word-spacing: pre-line;
   word-break: break-word;
-
 }
 .test_author_name span {
   color: #20d34a;
@@ -941,6 +960,12 @@ section {
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #20d34a;
+}
+
+@media (max-width: 1024px) {
+  .testimonials .swiper-pagination {
+    margin-top: 0;
+  }
 }
 
 /*********************************

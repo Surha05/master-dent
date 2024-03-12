@@ -10,14 +10,15 @@
   <div class="menu menu_mm">
     <ul class="menu_list menu_mm">
       <li class="menu_item menu_mm"><a href="index.php">Главная</a></li>
-			<li class="menu_item main_nav-item dropdown dropdown-about"><a href="about.php" class="js-link-about">О нас</a>
+			<li class="menu_item main_nav-item dropdown dropdown-about"><a href="#" class="js-link-about">О клинике <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 				<ul class="js-dropdown-about">
+					<li><a href="about.php">О нас</a></li>
 					<li><a href="gallery.php">Галерея</a></li>
 					<li><a href="documents.php">Документы</a></li>
 				</ul>
 			</li>
 
-      <li class="menu_item main_nav-item dropdown dropdown-services"><a href="services.php">Услуги</a>
+      <li class="menu_item main_nav-item dropdown dropdown-services"><a href="services.php">Услуги <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 				<ul class="js-dropdown-mobail-services">
 					<!-- <li><a href="#">Deep Drop Down 1</a></li>
 					<li><a href="#">Deep Drop Down 2</a></li>
@@ -27,7 +28,7 @@
 				</ul>
 			</li>      <li class="menu_item menu_mm"><a href="news.php">Новости</a></li>
       <li class="menu_item menu_mm"><a href="contact.php">Контакты</a></li>
-      <li class="menu_item main_nav-item dropdown"><a href="news.php">Доктора</a>
+      <li class="menu_item main_nav-item dropdown"><a href="news.php">Доктора <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 				<ul class="js-dropdown-mobail-doctors">
 					<!-- <li><a href="#">Deep Drop Down 1</a></li>
 					<li><a href="#">Deep Drop Down 2</a></li>

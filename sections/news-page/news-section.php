@@ -47,21 +47,7 @@
 							</form>
 						</div> -->
 
-						<!-- Categories -->
-						<div class="sidebar_categories sidebar_section">
-							<div class="sidebar_section_title">
-								<div class="sidebar_title">Услуги</div>
-							</div>
-							<ul class="js-news-sidebar">
-								<!-- <li><a href="#">Терапевтическая стоматология</a></li>
-								<li><a href="#">Пародонтология</a></li>
-								<li><a href="#">Шинирование зубов</a></li>
-								<li><a href="#">Ортопедия</a></li>
-								<li><a href="#">Хирургия</a></li>
-								<li><a href="#">Ортодонтия</a></li> -->
-
-							</ul>
-						</div>
+				
 
 						<!-- Archives -->
 						<!-- <div class="sidebar_archives sidebar_section">
@@ -77,7 +63,7 @@
 						</div> -->
 
 						<!-- Working Hours -->
-					<div class="box working_hours">
+					<div class="box working_hours working_hours-news">
 						<div class="box_icon d-flex flex-column align-items-start justify-content-center"><div style="width:29px; height:29px;"><img src="images/alarm-clock.svg" alt=""></div></div>
 						<div class="box_title">Время работы</div>
 						<div class="working_hours_list">
@@ -128,6 +114,6 @@
 		</div>
 	</div>
 
-	<script src="/sections/news-page/render-services.js"></script>
+	<!-- <script src="/sections/news-page/render-services.js"></script> -->
 	<script src="/sections/news-page/render-news.js"></script>
 	<script src="/sections/news-page/boxes-work.js"></script>

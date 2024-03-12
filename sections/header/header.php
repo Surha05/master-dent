@@ -31,10 +31,12 @@
 							<nav class="main_nav ml-auto">
 								<ul class="main_nav-list"> 
 									<li class="main_nav-item"><a href="index.php">Главная</a></li>
-									<li class="main_nav-item dropdown dropdown-about"><a href="about.php" class="js-link-about">О нас</a>
+									<li class="main_nav-item dropdown dropdown-about"><a href="#" class="js-link-about">О клинике</a>
 										<ul class="js-dropdown-about">
+											<li><a href="about.php">О нас</a></li>
 											<li><a href="gallery.php">Галерея</a></li>
 											<li><a href="documents.php">Документы</a></li>
+
 										</ul>
 									</li>
 									<li class="main_nav-item dropdown dropdown-services"><a href="services.php" class="js-link-services">Услуги</a>

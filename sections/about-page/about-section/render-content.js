@@ -2,7 +2,6 @@
   const titleBlock = document.querySelector('#js_about_title');
   const descBlock = document.querySelector('#js_about_text');
   const imgBlock = document.querySelector('#js_about_img');
-  console.log(imgBlock);
 
   let data = {};
 

@@ -507,6 +507,13 @@ section {
 .menu_item {
   margin-bottom: 5px;
 }
+
+.menu_item a .fa-chevron-down {
+  position: relative;
+  top: -5px;
+  font-size: 20px; 
+}
+
 .menu_item a {
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
@@ -624,6 +631,14 @@ section {
   top: 100%;
   visibility: visible;
 }
+
+@media (max-width: 576px) {
+  .menu_item a .fa-chevron-down {
+    position: relative;
+    top: -5px;
+    font-size: 10px; 
+  }
+} 
 
 /*********************************
 5. Home
@@ -757,6 +772,8 @@ section {
 .news_info {
   margin-top: 4px;
   padding-left: 3px;
+  padding-left: 0px;
+
 }
 .news_info ul li {
   display: inline-block;
@@ -828,6 +845,12 @@ section {
 }
 .news_page_nav ul li.active a {
   color: #20d34a;
+}
+
+@media (max-width: 1024px) {
+  .news {
+    margin-top: 56px;
+  }
 }
 
 /*********************************
@@ -968,6 +991,10 @@ section {
 }
 
 .working_hours-documents {
+  margin-top: 0;
+}
+
+.working_hours-news {
   margin-top: 0;
 }
 .working_hours_list {

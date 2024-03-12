@@ -52,10 +52,10 @@
         <img src="images/doctor/${photo}" alt="">
       </div>
       <div class="news_body">
-        <div class="news_title"><a href="#">${name}</a></div>
+        <div class="news_title">${name}</div>
         <div class="news_info">
           <ul>
-            <li class="news_author"><a href="#">${post}</a></li>
+            <li class="news_author">${post}</li>
           </ul>
         </div>
         <div class="news_text">
