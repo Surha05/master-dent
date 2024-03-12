@@ -31,7 +31,7 @@
 							<div class="news_posts">
 								<div class="accordion_container">
 									<div class="accordion d-flex flex-row align-items-center active">
-										<div>Лицензия</div>
+										<div>Лицензии</div>
 									</div>
 									
 									<div class="accordion_panel">
@@ -54,23 +54,10 @@
 				<div class="col-lg-4">
 					<div class="sidebar">
 						<!-- Categories -->
-						<div class="sidebar_categories sidebar_section">
-							<div class="sidebar_section_title">
-								<div class="sidebar_title">Услуги</div>
-							</div>
-							<ul class="js-news-sidebar">
-								<!-- <li><a href="#">Терапевтическая стоматология</a></li>
-								<li><a href="#">Пародонтология</a></li>
-								<li><a href="#">Шинирование зубов</a></li>
-								<li><a href="#">Ортопедия</a></li>
-								<li><a href="#">Хирургия</a></li>
-								<li><a href="#">Ортодонтия</a></li> -->
-
-							</ul>
-						</div>
+					
 
 						<!-- Working Hours -->
-						<div class="box working_hours">
+						<div class="box working_hours working_hours-documents">
 							<div class="box_icon d-flex flex-column align-items-start justify-content-center"><div style="width:29px; height:29px;"><img src="images/alarm-clock.svg" alt=""></div></div>
 							<div class="box_title">Время работы</div>
 							<div class="working_hours_list">
@@ -96,7 +83,7 @@
 		</div>
 	</div>
 
-	<script src="/sections/news-page/render-services.js"></script>
+	<!-- <script src="/sections/news-page/render-services.js"></script> -->
 	<script src="/sections/documets-page/render-documents.js"></script>
 	<script src="/sections/documets-page/render-license.js"></script>
 

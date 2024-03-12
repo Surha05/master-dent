@@ -2,7 +2,6 @@
 <html lang="ru">
 	<?php
     $page = 'Контакты';
-    $title_page="Стоматология Мастер-Дент";
     include 'sections/contact-page/head.php' 
   ?>
 <body>

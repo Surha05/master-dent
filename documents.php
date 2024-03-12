@@ -2,7 +2,6 @@
 <html lang="ru">
 	<?php
     $page = 'Документы';
-    $title_page="Стоматология Мастер-Дент";
     include 'sections/documets-page/head.php' 
   ?>
 <body>

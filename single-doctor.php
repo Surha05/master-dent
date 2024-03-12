@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<?php
-    $page = 'Новости';
-    $title_page="Стоматология Мастер-Дент";
-    include 'sections/news-page/head.php' 
+    $page = 'Доктора';
+    include 'sections/doctor-page/head.php' 
   ?>
 <body>
 

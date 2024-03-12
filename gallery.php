@@ -2,7 +2,6 @@
 <html lang="ru">
 	<?php
     $page = 'Галерея';
-    $title_page="Стоматология Мастер-Дент";
     include 'sections/gallery-page/head.php' 
   ?>
 <body>

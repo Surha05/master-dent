@@ -2,7 +2,6 @@
 <html lang="ru">
 	<?php
     $page = 'Услуги';
-    $title_page="Стоматология Мастер-Дент";
     include 'sections/services-single-page/head.php' 
   ?>
 <body>

@@ -10,6 +10,7 @@
       .then((res) => res.json())
       .then((res) => {
         for (let item of res) {
+          console.log(item);
           let linkName = item.name.replaceAll(' ', '');
           listProduct.push({
             id: item.id,
