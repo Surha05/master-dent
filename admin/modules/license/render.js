@@ -13,7 +13,7 @@ import { license } from '../../../API/license/get.js';
     for (const item of arr) {
       const block = `
       <div class="admin-list__item p-5" id="${item.id}">
-        <div class="w-100"><a href="/license/${item.photo}" target="_blank">${item.name}</a></div>
+        <div class=""><img src="/docs/${item.photo}" >${item.name}</div>
         <div class="ml-auto"><a id="btn-del-new" class="dropdown-item" href="">Удалить</a>
         </div>
       </div>`;
