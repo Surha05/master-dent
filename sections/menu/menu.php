@@ -28,7 +28,7 @@
 				</ul>
 			</li>      <li class="menu_item menu_mm"><a href="news.php">Новости</a></li>
       <li class="menu_item menu_mm"><a href="contact.php">Контакты</a></li>
-      <li class="menu_item main_nav-item dropdown"><a href="" class="js-link-doctors">Доктора <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+      <li class="menu_item main_nav-item dropdown dropdown-doctors"><a href="" class="js-link-doctors">Доктора <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 				<ul class="js-dropdown-mobail-doctors">
 					<!-- <li><a href="#">Deep Drop Down 1</a></li>
 					<li><a href="#">Deep Drop Down 2</a></li>

@@ -49,6 +49,7 @@
     return `
     <div class="news_post" id=${id}>
       <div class="news_image">
+      <h1 class="news_post-title-doctor">${name}</h1>
         <img src="images/doctor/${photo}" alt="">
       </div>
       <div class="news_body">

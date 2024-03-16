@@ -49,7 +49,7 @@
 										</ul>
 									</li>
 									<li class="main_nav-item"><a href="news.php">Новости</a></li>
-									<li class="main_nav-item dropdown"><a href="" class="js-link-doctors">Доктора</a>
+									<li class="main_nav-item dropdown dropdown-doctors"><a href="" class="js-link-doctors">Доктора</a>
 										<ul class="js-dropdown-doctors">
 											<!-- <li><a href="#">Deep Drop Down 1</a></li>
 											<li><a href="#">Deep Drop Down 2</a></li>

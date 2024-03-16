@@ -456,7 +456,7 @@ section {
   position: fixed;
   top: 0;
   right: -50vw;
-  width: 50vw;
+  width: 60vw;
   height: 100vh;
   background: #ffffff;
   z-index: 101;
@@ -478,6 +478,7 @@ section {
   top: 150px;
   left: 0;
   padding-left: 15%;
+  padding-left: 10%;
 }
 .menu_inner {
   width: 100%;
@@ -522,7 +523,7 @@ section {
 .menu_item a .fa-chevron-down {
   position: relative;
   top: -5px;
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 .menu_item a:hover {
@@ -579,7 +580,7 @@ section {
   padding-left: 15%;
   padding-bottom: 25px;
 }
-.menu_appointment a {
+.menu_extra .menu_appointment a {
   font-size: 13px;
   color: #283290;
 }
@@ -592,6 +593,7 @@ section {
   display: block;
   position: absolute;
   /* left: 28px; */
+  /* right: 0px; */
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
@@ -603,28 +605,51 @@ section {
   transition: 0.3s;
   border-radius: 4px;
 }
+.main_nav .dropdown-services ul {
+  left: -80%;
+}
+.main_nav .dropdown-doctors ul {
+  left: -160%;
+}
+
 .menu_mm .dropdown ul li,
 .main_nav .dropdown ul li {
   width: 200px;
+  text-indent: -10px;
+  margin-left: 10px;
 }
 
 .menu_mm .dropdown-about ul li,
 .main_nav .dropdown-about ul li {
-  width: 250px;
+  width: 200px;
+  text-indent: -10px;
+  margin-left: 10px;
 }
 
 .menu_mm .dropdown-services ul li,
 .main_nav .dropdown-services ul li {
-  width: 250px;
+  width: 290px;
+  text-indent: -10px;
+  margin-left: 10px;
 }
+
+.menu_mm .dropdown-doctors ul li,
+.main_nav .dropdown-doctors ul li {
+  width: 290px;
+  text-indent: -10px;
+  margin-left: 10px;
+}
+
 .menu_mm .dropdown ul a,
 .main_nav .dropdown ul a {
-  padding: 10px 5px;
+  padding: 10px 10px;
   /* padding: 10px 0; */
   font-size: 15px;
   text-transform: none;
   font-weight: 600;
+  word-break: break-all;
 }
+
 .menu_mm .dropdown:hover > ul,
 .main_nav .dropdown:hover > ul {
   opacity: 1;
@@ -639,6 +664,18 @@ section {
     font-size: 10px; 
   }
 } 
+
+@media (max-width: 340px) {
+  .menu {
+    padding-left: 7%;
+  }
+}
+
+@media (max-width: 330px) {
+  .menu {
+    padding-left: 4%;
+  }
+}
 
 /*********************************
 5. Home
@@ -910,6 +947,8 @@ section {
   background: #20d34a;
 }
 .test_text {
+  max-height: 400px;
+  overflow: hidden;
   font-size: 18px;
   font-weight: 400;
   color: #ffffff;
@@ -1166,7 +1205,7 @@ section {
   margin-top: 35px;
 }
 .footer_links ul li:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .footer_links ul li a {
   font-size: 14px;
@@ -1189,7 +1228,7 @@ section {
 }
 .footer_news ul li:not(:last-child) {
   margin-bottom: 38px;
-  margin-bottom: 36px;
+  margin-bottom: 15px;
 }
 .copyright {
   width: 100%;

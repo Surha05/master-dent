@@ -40,8 +40,8 @@
 
   function template({ id, name, post, photo, description } = {}) {
     return `
-    <li id=${id}><a href="#">${name}</a></li>
+    <li id=${id}><a href="/single-doctor.php?id=${id}">${name}</a></li>
 
     `;
-  }
+  }c
 })();
