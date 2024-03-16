@@ -787,6 +787,7 @@ section {
 }
 
 .news_post-title-doctor {
+  padding: 10px;
   font-size: 25px;
   margin-bottom: 20px;
 }
