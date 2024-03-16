@@ -104,12 +104,17 @@
   transition: all 500ms ease;
 }
 .accordion_panel > div {
-  padding-bottom: 19px;
-}
-.accordion_panel p {
-  padding-top: 35px;
+  /* padding-bottom: 19px; */
 }
 
+.accordion_panel p {
+  padding-top: 35px;
+  padding-top: 20px;
+
+}
+.accordion_panel-content:first-child {
+  padding-top: 10px;
+}
 .accordion_panel-content {
   display: flex;
   justify-content: space-between;

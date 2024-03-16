@@ -1384,7 +1384,7 @@ section {
   transition: all 500ms ease;
 }
 .accordion_panel > div {
-  padding-bottom: 19px;
+  /* padding-bottom: 19px; */
 }
 .accordion_panel p {
   padding-top: 35px;

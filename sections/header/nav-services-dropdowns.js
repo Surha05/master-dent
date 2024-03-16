@@ -11,36 +11,33 @@
 
     getData();
     function getData() {
-      const url = '/API/product/get.php';
+      const url = '/API/product/get.php'; 
 
-      let listDoctors = [];
+      let listServices = [];
 
       fetch(url)
         .then((res) => res.json())
         .then((res) => {
           for (let item of res) {
             let linkName = item.name.replaceAll(' ', '');
-            listDoctors.push({
+            listServices.push({
               id: item.id,
               name: item.name,
               linkName: linkName,
-              photo: item.photo,
-              description: item.description,
-              full_description: item.full_description,
             });
           }
-          render(listDoctors);
+          render(listServices);
         })
         .catch((error) => {
           console.log(error);
         });
     }
 
-    function render(listDoctors) {
+    function render(listServices) {
       let fragment = '';
 
-      listDoctors.forEach((doctor) => {
-        const li = template(doctor);
+      listServices.forEach((item) => {
+        const li = template(item);
         fragment += li;
       });
 
