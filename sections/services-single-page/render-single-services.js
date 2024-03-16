@@ -6,9 +6,10 @@
 
   let linksServices = [];
 
-  getData();
+  getDataService();
+  getDataProduct();
 
-  function getData() {
+  function getDataService() {
     const url = '/API/service/get.php';
 
     fetch(url)
@@ -28,7 +29,27 @@
           }
         }
         renderContent(linksServices);
-        renderTitle(linksServices);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }
+
+  function getDataProduct() {
+    const url = '/API/product/get.php';
+
+    fetch(url)
+      .then((res) => res.json())
+      .then((res) => {
+        if (linkHref) {
+          for (let item of res) {
+            let linkName = item.name.replaceAll(' ', '');
+            if (linkHref == linkName) {
+              let title = item.name;
+              renderTitle(title);
+            }
+          }
+        }
       })
       .catch((error) => {
         console.log(error);
@@ -36,15 +57,11 @@
   }
 
   function renderTitle(listProducts) {
+    let title = document.querySelector('.js-accordion-title');
     let subTitle = document.querySelector('.js-accordion-sub-title');
-    let firstElementOfArray = listProducts[0];
-    subTitle.textContent = 'Услуги: ' + firstElementOfArray.category;
-    
-    let fragment = '';
-    const title = templateSubtitle(firstElementOfArray);
 
-    fragment += title;
-    sectionTitle.insertAdjacentHTML('afterbegin', fragment);
+    title.textContent = listProducts;
+    subTitle.textContent = 'Услуги: ' + listProducts;
   }
 
   function renderContent(listProducts) {
@@ -58,14 +75,7 @@
     section.insertAdjacentHTML('afterbegin', fragment);
   }
 
-  function templateSubtitle({ category } = {}) {
-    return `
-        <div class="section_title"><h2>${category}</h2></div>
-    
-    `;
-  }
-
-  function templateContent({ id, name, price, category } = {}) {
+  function templateContent({ id, name, price } = {}) {
     return `
   	
     <div class="accordion_panel-content" id=${id}>
@@ -75,61 +85,4 @@
   		
     `;
   }
-
-  // function render(linkNews) {
-  //   let fragment = '';
-  //   console.log(linkNews);
-
-  //   linkNews.forEach((el) => {
-  //     const li = template(el);
-  //     fragment += li;
-  //   });
-
-  //   section.insertAdjacentHTML('afterbegin', fragment);
-  // }
-
-  // function template({ id, name, price, category } = {}) {
-  //   return `
-  //   <div class="col-lg-10" id=${id}>
-  // 				<div class="row">
-  // 					<div class="col">
-  // 						<div class="section_title"><h2>${category}</h2></div>
-  // 					</div>
-  // 				</div>
-
-  // 				<div class="news_posts">
-  // 					<div class="accordion_container">
-  // 							<div class="accordion d-flex flex-row align-items-center active"><div>Услуги: ${category}</div></div>
-  // 							<div class="accordion_panel">
-  // 								<div class="accordion_panel-content">
-  // 									<p>${name}</p>
-  // 									<p class="accordion_panel-price">${price} руб.</p>
-  // 								</div>
-  // 							</div>
-  // 						</div>
-  // 				</div>
-  // 			</div>
-  //   `;
-  // }
 })();
-
-// <div class="col-lg-10" id=${id}>
-// <div class="row">
-//   <div class="col">
-//     <div class="section_title"><h2>${category}</h2></div>
-//   </div>
-// </div>
-
-// <div class="news_posts">
-//   <div class="accordion_container">
-//       <div class="accordion d-flex flex-row align-items-center active"><div>Услуги: ${category}</div></div>
-//       <div class="accordion_panel">
-//         <div class="accordion_panel-content">
-//           <p>${name}</p>
-//           <p class="accordion_panel-price">${price} руб.</p>
-//         </div>
-//       </div>
-//     </div>
-// </div>
-// </div>
-// `;

@@ -6,7 +6,7 @@
 				  <div class="col-lg-10">
 						<div class="row">
 							<div class="col container-card-top" id=${id}>
-								<!-- <div class="section_title"><h2>${category}</h2></div> -->
+								<div class="section_title"><h2 class="js-accordion-title">category</h2></div>
 							</div>
 						</div>
 						<div class="news_posts">

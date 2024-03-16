@@ -596,7 +596,8 @@ section {
 .main_nav .dropdown ul {
   display: block;
   position: absolute;
-  /* left: 28px; */
+  left: -80%;
+  /* right: 0px; */
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
@@ -610,7 +611,7 @@ section {
 }
 .menu_mm .dropdown ul li,
 .main_nav .dropdown ul li {
-  width: 200px;
+  width: 250px;
 }
 
 .menu_mm .dropdown-about ul li,

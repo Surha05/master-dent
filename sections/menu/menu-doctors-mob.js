@@ -1,5 +1,10 @@
 (function () {
   const section = document.querySelector('.js-dropdown-mobail-doctors');
+  
+  const linkDoctors = document.querySelector('.js-link-doctors');
+  linkDoctors.addEventListener('click', (e) => {
+    e.preventDefault();
+  });
 
   getData();
   function getData() {
@@ -44,4 +49,4 @@
   
       `;
   }
-})(); 
+})();

@@ -31,7 +31,7 @@
 							<nav class="main_nav ml-auto">
 								<ul class="main_nav-list"> 
 									<li class="main_nav-item"><a href="index.php">Главная</a></li>
-									<li class="main_nav-item dropdown dropdown-about"><a href="#" class="js-link-about">О клинике</a>
+									<li class="main_nav-item dropdown dropdown-about"><a href="#" class="js-link-clinic">О клинике</a>
 										<ul class="js-dropdown-about">
 											<li><a href="about.php">О нас</a></li>
 											<li><a href="gallery.php">Галерея</a></li>
@@ -92,6 +92,7 @@
 		</div>
 
 	</header>
+	<script src="/sections/header/nav-clinic.js"></script>
 	<script src="/sections/header/nav-services-dropdowns.js"></script>
 	<script src="/sections/header/nav-doctors-dropdowns.js"></script>
 	<script src="/sections/header/header.js"></script>
