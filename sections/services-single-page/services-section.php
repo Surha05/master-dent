@@ -11,7 +11,9 @@
 						</div>
 						<div class="news_posts">
 							<div class="accordion_container">
-								<div class="accordion d-flex flex-row align-items-center js-accordion-sub-title active"><div>Услуги: ${category}</div></div>
+								<div class="accordion d-flex flex-row align-items-center js-accordion-sub-title active">
+									<div>Услуги: ${category}</div>
+								</div>
 								<div class="accordion_panel js-single-services">
 									<!-- <div class="accordion_panel-content">
 										<p>${name}</p>

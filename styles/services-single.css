@@ -22,7 +22,7 @@
   height: 60px;
   width: 100%;
   background: #f4f5fb;
-  padding-left: 35px;
+  padding-left: 25px;
   cursor: pointer;
   color: #232323;
   font-size: 18px;
@@ -32,6 +32,7 @@
   -ms-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
+  padding-right: 30px;
 }
 .accordion::before {
   display: block;
@@ -53,6 +54,10 @@
   overflow: hidden;
   white-space: nowrap;
 }
+
+/* .accordion .accordion-sub-title {
+  margin-right: 20px;
+} */
 .accordion.active,
 .accordion:hover {
   background: #283290;
