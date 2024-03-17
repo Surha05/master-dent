@@ -624,6 +624,7 @@ section {
   width: 200px;
   text-indent: -10px;
   margin-left: 10px;
+  padding-bottom: 10px;
 }
 
 .menu_mm .dropdown-services ul li,
@@ -631,6 +632,7 @@ section {
   width: 290px;
   text-indent: -10px;
   margin-left: 10px;
+  padding-bottom: 10px;
 }
 
 .menu_mm .dropdown-doctors ul li,
@@ -638,12 +640,12 @@ section {
   width: 290px;
   text-indent: -10px;
   margin-left: 10px;
+  padding-bottom: 10px;
 }
 
 .menu_mm .dropdown ul a,
 .main_nav .dropdown ul a {
-  padding: 10px 10px;
-  /* padding: 10px 0; */
+  padding: 10px;
   font-size: 15px;
   text-transform: none;
   font-weight: 600;
@@ -661,9 +663,9 @@ section {
   .menu_item a .fa-chevron-down {
     position: relative;
     top: -5px;
-    font-size: 10px; 
+    font-size: 10px;
   }
-} 
+}
 
 @media (max-width: 340px) {
   .menu {
@@ -948,7 +950,7 @@ section {
 }
 .test_text {
   max-height: 400px;
-  overflow: hidden;
+  overflow: auto;
   font-size: 18px;
   font-weight: 400;
   color: #ffffff;
