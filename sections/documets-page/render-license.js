@@ -33,13 +33,17 @@
       fragment += li;
     }
 
-    section.insertAdjacentHTML('afterbegin', fragment);
+    section.innerHTML = fragment;
   }
 
   function template({ id, name, photo } = {}) {
     return `
-    <li id=${id}><a href="/docs/${photo}" target="_blank">${name}</a></li>
-
+    <div class="license__item">
+			
+      <a href="/docs/${photo}" class="gallery-lightbox" data-gall="license__item">
+        <img src="/docs/${photo}" alt="${name}" class="license_img">
+      </a>
+		</div>
     `;
   }
 })();

@@ -32,7 +32,7 @@
       fragment += li;
     }
 
-    section.insertAdjacentHTML('afterbegin', fragment);
+    section.innerHTML = fragment;
   }
 
   function template({ id, name, photo } = {}) {
